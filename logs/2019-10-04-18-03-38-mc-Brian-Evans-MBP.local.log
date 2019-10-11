@@ -1,0 +1,35 @@
+2019-10-04 18:03:38,767 : kivy : Factory: 194 symbols loaded
+2019-10-04 18:03:38,898 : kivy : Image: Providers: img_tex, img_imageio, img_dds, img_sdl2, img_pil, img_gif (img_ffpyplayer ignored)
+2019-10-04 18:03:38,976 : kivy : VideoGstplayer: Using Gstreamer 1.10.2.0
+2019-10-04 18:03:38,976 : kivy : Video: Provider: gstplayer
+2019-10-04 18:03:39,045 : kivy : Loading MPF-MC controller
+2019-10-04 18:03:39,045 : mpfmc : Mission Pinball Framework Media Controller v0.52.5
+2019-10-04 18:03:39,045 : mpfmc : Mission Pinball Framework Game Engine v0.52.7
+2019-10-04 18:03:39,046 : mpfmc : Machine path: /Users/brianevans/Projects/HeistMPF
+2019-10-04 18:03:39,046 : ConfigProcessor : Config file in cache changed: /Users/brianevans/Projects/HeistMPF/config/config
+2019-10-04 18:03:39,046 : ConfigProcessor : Loading config from file /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpfmc/mcconfig.yaml.
+2019-10-04 18:03:39,103 : ConfigProcessor : Loading config: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpfmc/mcconfig.yaml
+2019-10-04 18:03:39,116 : ConfigProcessor : Loading config from file /Users/brianevans/Projects/HeistMPF/config/config.
+2019-10-04 18:03:39,131 : ConfigProcessor : Loading config: /Users/brianevans/Projects/HeistMPF/config/config
+2019-10-04 18:03:39,132 : kivy : Found a "dmd:" section in config file /Users/brianevans/Projects/HeistMPF/config/config, but that section is not valid in machine config files.
+Traceback (most recent call last):
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_processor.py", line 145, in _load_config_file_and_return_loaded_files
+    if config_type not in self.config_validator.get_config_spec()[k][
+KeyError: 'dmd'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpfmc/commands/mc.py", line 209, in __init__
+    thread_stopper=thread_stopper).run()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpfmc/core/mc.py", line 97, in __init__
+    self.machine_config = self._load_config()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpfmc/core/mc.py", line 223, in _load_config
+    mpf_config = self.mpf_config_processor.load_config_files_with_cache(files, "machine", True)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_processor.py", line 154, in _load_config_file_and_return_loaded_files
+    'files.'.format(k, filename, config_type))
+ValueError: Found a "dmd:" section in config file /Users/brianevans/Projects/HeistMPF/config/config, but that section is not valid in machine config files.
+2019-10-04 18:03:39,134 : kivy : Stopping child threads... (0 remaining)
+2019-10-04 18:03:39,134 : kivy : All child threads stopped.

@@ -1,0 +1,61 @@
+#config_version=5
+mode:
+    start_events: ball_starting
+    priority: 100
+
+variable_player:
+    s_pop_left_active:
+        score: 100
+    s_pop_right_active:
+        score: 100
+    s_pop_middle_active:
+        score: 100
+    s_slingshot_left_active:
+        score: 50
+    s_slingshot_right_active:
+        score: 50
+    s_plunger_lane_active:
+        score: 25
+    s_scoop_acrtive:
+        score: 225
+    scoop_shot_hit:
+        score: 119
+
+shots:
+  scoop_shot:
+    switch: s_scoop
+
+multiballs:
+  quick_add_ball:
+    ball_count: 3
+    ball_count_type: total
+    shoot_again: 0
+    start_events: scoop_seq_hit___
+
+sequence_shots:
+     scoop_seq:
+         switch_sequence: s_scoop
+        
+slide_player:
+  mode_base_started:
+    widgets:
+      - type: text
+        text: (score)
+        number_grouping: true
+        min_digits: 2
+        font_size: 10
+      - type: text
+        text: PLAYER (number)
+        y: 10
+        x: 10
+        anchor_x: left
+        anchor_y: bottom
+        font_size: 5
+      - type: text
+        text: BALL (ball)
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 5
+        

@@ -1,0 +1,71 @@
+2019-10-04 18:11:59,016 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.7
+2019-10-04 18:11:59,016 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': '/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2019-10-04-18-11-59-mpf-Brian-Evans-MBP.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-10-04 18:11:59,016 : INFO : Machine : MPF path: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf
+2019-10-04 18:11:59,016 : INFO : Machine : Machine path: /Users/brianevans/Projects/HeistMPF
+2019-10-04 18:11:59,016 : INFO : Machine : Platform: darwin
+2019-10-04 18:11:59,016 : INFO : Machine : Python executable location: /Users/brianevans/Projects/Heist2/bin/python3
+2019-10-04 18:11:59,016 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-10-04 18:11:59,016 : INFO : Machine : Machine config file #1: config.yaml
+2019-10-04 18:11:59,017 : WARNING : ConfigProcessor : Config file in cache changed: /Users/brianevans/Projects/HeistMPF/config/config.yaml
+2019-10-04 18:11:59,017 : INFO : ConfigProcessor : Loading config from file /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml.
+2019-10-04 18:11:59,099 : INFO : ConfigProcessor : Loading config: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml
+2019-10-04 18:11:59,107 : INFO : ConfigProcessor : Loading config from file /Users/brianevans/Projects/HeistMPF/config/config.yaml.
+2019-10-04 18:11:59,121 : INFO : ConfigProcessor : Loading config: /Users/brianevans/Projects/HeistMPF/config/config.yaml
+2019-10-04 18:11:59,122 : INFO : ConfigProcessor : Config file cache created: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/cbd0102fc3bbffb15d3481666f19a2dc.mpf_cache
+2019-10-04 18:11:59,122 : INFO : Machine : Initialise MPF.
+2019-10-04 18:11:59,176 : INFO : P3-ROC : Connecting to P-ROC
+2019-10-04 18:11:59,242 : INFO : P3-ROC : Successfully connected to P-ROC/P3-ROC. Firmware Version: 1. Firmware Revision: 22. Hardware Board ID: 0
+2019-10-04 18:11:59,292 : INFO : EventManager : Event: ======'machine_var_p_roc_version'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2019-10-04 18:11:59,292 : INFO : EventManager : Event: ======'machine_var_p_roc_revision'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2019-10-04 18:11:59,295 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-10-04 18:11:59,321 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.7', 'prev_value': None, 'change': True}
+2019-10-04 18:11:59,321 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.7, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-10-04 18:11:59,321 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.8', 'prev_value': None, 'change': True}
+2019-10-04 18:11:59,327 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Darwin-18.6.0-x86_64-i386-64bit', 'prev_value': None, 'change': True}
+2019-10-04 18:11:59,327 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2019-10-04 18:11:59,327 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '18.6.0', 'prev_value': None, 'change': True}
+2019-10-04 18:11:59,327 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2019-10-04 18:11:59,327 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2019-10-04 18:11:59,327 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-10-04 18:11:59,349 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/f0759ae7f1adf3ca3aa30930aefbe6d9.mpf_cache
+2019-10-04 18:11:59,353 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/a8e25c492f388de3c3716813c634f0e8.mpf_cache
+2019-10-04 18:11:59,359 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...igure_dmd'",)>) at /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...igure_dmd'",)>) at /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py:96>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py", line 99, in _async_handler_done
+    future.result()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/device_manager.py", line 117, in _load_device_modules
+    yield from self.initialize_devices()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/device_manager.py", line 214, in initialize_devices
+    yield from collection[device_name].device_added_system_wide()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    yield from self._initialize()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/devices/dmd.py", line 40, in _initialize
+    self.hw_device = self.platform.configure_dmd()
+AttributeError: 'P3RocHardwarePlatform' object has no attribute 'configure_dmd'
+2019-10-04 18:11:59,362 : INFO : Machine : Starting the main run loop.
+2019-10-04 18:11:59,362 : INFO : Machine : Shutting down...
+2019-10-04 18:11:59,363 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-10-04 18:11:59,367 : ERROR : root : 'P3RocHardwarePlatform' object has no attribute 'configure_dmd'
+Traceback (most recent call last):
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/commands/game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/machine.py", line 709, in run
+    self._run_loop()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py", line 99, in _async_handler_done
+    future.result()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/device_manager.py", line 117, in _load_device_modules
+    yield from self.initialize_devices()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/device_manager.py", line 214, in initialize_devices
+    yield from collection[device_name].device_added_system_wide()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/system_wide_device.py", line 17, in device_added_system_wide
+    yield from self._initialize()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/devices/dmd.py", line 40, in _initialize
+    self.hw_device = self.platform.configure_dmd()
+AttributeError: 'P3RocHardwarePlatform' object has no attribute 'configure_dmd'

@@ -1,0 +1,84 @@
+2019-10-05 14:48:04,910 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.7
+2019-10-05 14:48:04,910 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': '/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2019-10-05-14-48-04-mpf-Brian-Evans-MBP.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-10-05 14:48:04,910 : INFO : Machine : MPF path: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf
+2019-10-05 14:48:04,910 : INFO : Machine : Machine path: /Users/brianevans/Projects/HeistMPF
+2019-10-05 14:48:04,910 : INFO : Machine : Platform: darwin
+2019-10-05 14:48:04,910 : INFO : Machine : Python executable location: /Users/brianevans/Projects/Heist2/bin/python3
+2019-10-05 14:48:04,910 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-10-05 14:48:04,910 : INFO : Machine : Machine config file #1: config.yaml
+2019-10-05 14:48:04,911 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/cbd0102fc3bbffb15d3481666f19a2dc.mpf_cache
+2019-10-05 14:48:04,912 : INFO : Machine : Initialise MPF.
+2019-10-05 14:48:04,966 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-10-05 14:48:04,992 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-10-05 14:48:04,992 : INFO : EventManager : Event: ======'machine_var_player2_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-10-05 14:48:04,992 : INFO : EventManager : Event: ======'machine_var_player3_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-10-05 14:48:04,992 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.7', 'prev_value': None, 'change': True}
+2019-10-05 14:48:04,992 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.7, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-10-05 14:48:04,992 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.8', 'prev_value': None, 'change': True}
+2019-10-05 14:48:04,998 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Darwin-18.6.0-x86_64-i386-64bit', 'prev_value': None, 'change': True}
+2019-10-05 14:48:04,998 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2019-10-05 14:48:04,998 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '18.6.0', 'prev_value': None, 'change': True}
+2019-10-05 14:48:04,998 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2019-10-05 14:48:04,998 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2019-10-05 14:48:04,998 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-10-05 14:48:05,016 : WARNING : ConfigProcessor : Config file in cache changed: /Users/brianevans/Projects/HeistMPF/modes/scoop_multiball/config/scoop_multiball.yaml
+2019-10-05 14:48:05,016 : INFO : ConfigProcessor : Loading config from file /Users/brianevans/Projects/HeistMPF/modes/scoop_multiball/config/scoop_multiball.yaml.
+2019-10-05 14:48:05,019 : INFO : ConfigProcessor : Loading config: /Users/brianevans/Projects/HeistMPF/modes/scoop_multiball/config/scoop_multiball.yaml
+2019-10-05 14:48:05,020 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...fig files.',)>) at /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...fig files.',)>) at /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py:96>
+Traceback (most recent call last):
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_processor.py", line 145, in _load_config_file_and_return_loaded_files
+    if config_type not in self.config_validator.get_config_spec()[k][
+KeyError: 'quick_add_2_ball'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py", line 99, in _async_handler_done
+    future.result()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/mode_controller.py", line 184, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_processor.py", line 154, in _load_config_file_and_return_loaded_files
+    'files.'.format(k, filename, config_type))
+ValueError: Found a "quick_add_2_ball:" section in config file /Users/brianevans/Projects/HeistMPF/modes/scoop_multiball/config/scoop_multiball.yaml, but that section is not valid in mode config files.
+2019-10-05 14:48:05,024 : INFO : Machine : Starting the main run loop.
+2019-10-05 14:48:05,024 : INFO : Machine : Shutting down...
+2019-10-05 14:48:05,024 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-10-05 14:48:05,028 : ERROR : root : Found a "quick_add_2_ball:" section in config file /Users/brianevans/Projects/HeistMPF/modes/scoop_multiball/config/scoop_multiball.yaml, but that section is not valid in mode config files.
+Traceback (most recent call last):
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_processor.py", line 145, in _load_config_file_and_return_loaded_files
+    if config_type not in self.config_validator.get_config_spec()[k][
+KeyError: 'quick_add_2_ball'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/commands/game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/machine.py", line 709, in run
+    self._run_loop()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py", line 99, in _async_handler_done
+    future.result()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/mode_controller.py", line 117, in load_modes
+    self.machine.modes[mode] = self._load_mode(mode)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/mode_controller.py", line 266, in _load_mode
+    config = self._load_mode_config(mode_string)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/mode_controller.py", line 184, in _load_mode_config
+    store_to_cache=self.machine.options['create_config_cache'])
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_processor.py", line 154, in _load_config_file_and_return_loaded_files
+    'files.'.format(k, filename, config_type))
+ValueError: Found a "quick_add_2_ball:" section in config file /Users/brianevans/Projects/HeistMPF/modes/scoop_multiball/config/scoop_multiball.yaml, but that section is not valid in mode config files.

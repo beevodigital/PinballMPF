@@ -1,0 +1,36 @@
+events:
+  game_ended: 14
+  game_started: 87
+player:
+  score:
+    average: 364.0
+    top:
+    - 2369
+    - 1082
+    - 513
+    - 494
+    - 475
+    - 450
+    - 319
+    - 300
+    - 275
+    - 275
+    total: 18
+shots:
+  scoop_shoot: 12
+  scoop_shot: 113
+switches:
+  s_launch_button: 149
+  s_left_flipper: 358
+  s_plunger_lane: 202
+  s_pop_left: 41
+  s_pop_middle: 69
+  s_pop_right: 49
+  s_right_flipper: 454
+  s_scoop: 320
+  s_slingshot_left: 61
+  s_slingshot_right: 48
+  s_start: 39
+  s_trough1: 103
+  s_trough2: 128
+  s_trough3: 85

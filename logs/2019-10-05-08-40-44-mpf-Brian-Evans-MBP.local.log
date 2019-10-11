@@ -1,0 +1,78 @@
+2019-10-05 08:40:44,194 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.7
+2019-10-05 08:40:44,194 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': '/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2019-10-05-08-40-44-mpf-Brian-Evans-MBP.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-10-05 08:40:44,194 : INFO : Machine : MPF path: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf
+2019-10-05 08:40:44,195 : INFO : Machine : Machine path: /Users/brianevans/Projects/HeistMPF
+2019-10-05 08:40:44,195 : INFO : Machine : Platform: darwin
+2019-10-05 08:40:44,195 : INFO : Machine : Python executable location: /Users/brianevans/Projects/Heist2/bin/python3
+2019-10-05 08:40:44,195 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-10-05 08:40:44,195 : INFO : Machine : Machine config file #1: config.yaml
+2019-10-05 08:40:44,196 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/cbd0102fc3bbffb15d3481666f19a2dc.mpf_cache
+2019-10-05 08:40:44,197 : INFO : Machine : Initialise MPF.
+2019-10-05 08:40:44,251 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-10-05 08:40:44,274 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.7', 'prev_value': None, 'change': True}
+2019-10-05 08:40:44,274 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.7, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-10-05 08:40:44,274 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.8', 'prev_value': None, 'change': True}
+2019-10-05 08:40:44,280 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Darwin-18.6.0-x86_64-i386-64bit', 'prev_value': None, 'change': True}
+2019-10-05 08:40:44,280 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2019-10-05 08:40:44,280 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '18.6.0', 'prev_value': None, 'change': True}
+2019-10-05 08:40:44,280 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2019-10-05 08:40:44,280 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2019-10-05 08:40:44,280 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-10-05 08:40:44,299 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/f0759ae7f1adf3ca3aa30930aefbe6d9.mpf_cache
+2019-10-05 08:40:44,302 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/a8e25c492f388de3c3716813c634f0e8.mpf_cache
+2019-10-05 08:40:44,309 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...ot defined',)>) at /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...ot defined',)>) at /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py:96>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py", line 99, in _async_handler_done
+    future.result()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/device_manager.py", line 113, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/device_manager.py", line 177, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/device.py", line 105, in validate_and_parse_config
+    self.config_section, config, self.name, "device", prefix=debug_prefix)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_validator.py", line 268, in validate_config
+    validation_failure_info=(validation_failure_info, k))
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_validator.py", line 315, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_validator.py", line 711, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_validator.py", line 458, in _validate_type_machine
+    6)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_validator.py", line 731, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry ball_devices:bd_trough:ball_switches = "m" is not valid. Device m of type switches not defined Error Code: CFE-ConfigValidator-6
+2019-10-05 08:40:44,310 : INFO : Machine : Starting the main run loop.
+2019-10-05 08:40:44,310 : INFO : Machine : Shutting down...
+2019-10-05 08:40:44,310 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-10-05 08:40:44,314 : ERROR : root : Config File Error in ConfigValidator: Config validation error: Entry ball_devices:bd_trough:ball_switches = "m" is not valid. Device m of type switches not defined Error Code: CFE-ConfigValidator-6
+Traceback (most recent call last):
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/commands/game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/machine.py", line 709, in run
+    self._run_loop()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py", line 99, in _async_handler_done
+    future.result()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/device_manager.py", line 113, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/device_manager.py", line 177, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/device.py", line 105, in validate_and_parse_config
+    self.config_section, config, self.name, "device", prefix=debug_prefix)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_validator.py", line 268, in validate_config
+    validation_failure_info=(validation_failure_info, k))
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_validator.py", line 315, in validate_config_item
+    new_list.append(self.validate_item(i, validation, validation_failure_info))
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_validator.py", line 711, in validate_item
+    return self.validator_list[validator](item, validation_failure_info=validation_failure_info, param=param)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_validator.py", line 458, in _validate_type_machine
+    6)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_validator.py", line 731, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry ball_devices:bd_trough:ball_switches = "m" is not valid. Device m of type switches not defined Error Code: CFE-ConfigValidator-6

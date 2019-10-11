@@ -1,0 +1,15 @@
+#config_version=5
+mode:
+    start_events: scoop_seq_hit
+    priority: 200
+
+variable_player:
+    s_pop_left_active:
+        score: 123
+
+multiballs:
+  quick_add_1_ball:
+    ball_count: 2
+    ball_count_type: total
+    shoot_again: 0
+    start_events: scoop_multiball_start

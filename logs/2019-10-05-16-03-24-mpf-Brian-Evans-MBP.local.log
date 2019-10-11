@@ -1,0 +1,83 @@
+2019-10-05 16:03:24,435 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.7
+2019-10-05 16:03:24,435 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': '/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2019-10-05-16-03-24-mpf-Brian-Evans-MBP.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-10-05 16:03:24,435 : INFO : Machine : MPF path: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf
+2019-10-05 16:03:24,435 : INFO : Machine : Machine path: /Users/brianevans/Projects/HeistMPF
+2019-10-05 16:03:24,435 : INFO : Machine : Platform: darwin
+2019-10-05 16:03:24,435 : INFO : Machine : Python executable location: /Users/brianevans/Projects/Heist2/bin/python3
+2019-10-05 16:03:24,435 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-10-05 16:03:24,435 : INFO : Machine : Machine config file #1: config.yaml
+2019-10-05 16:03:24,436 : WARNING : ConfigProcessor : Config file in cache changed: /Users/brianevans/Projects/HeistMPF/config/config.yaml
+2019-10-05 16:03:24,437 : INFO : ConfigProcessor : Loading config from file /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml.
+2019-10-05 16:03:24,520 : INFO : ConfigProcessor : Loading config: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml
+2019-10-05 16:03:24,527 : INFO : ConfigProcessor : Loading config from file /Users/brianevans/Projects/HeistMPF/config/config.yaml.
+2019-10-05 16:03:24,563 : INFO : ConfigProcessor : Loading config: /Users/brianevans/Projects/HeistMPF/config/config.yaml
+2019-10-05 16:03:24,564 : INFO : ConfigProcessor : Config file cache created: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/cbd0102fc3bbffb15d3481666f19a2dc.mpf_cache
+2019-10-05 16:03:24,565 : INFO : Machine : Initialise MPF.
+2019-10-05 16:03:24,615 : INFO : P-ROC : Connecting to P-ROC
+2019-10-05 16:03:24,683 : INFO : P-ROC : Successfully connected to P-ROC/P3-ROC. Firmware Version: 1. Firmware Revision: 22. Hardware Board ID: 0
+2019-10-05 16:03:24,710 : INFO : EventManager : Event: ======'machine_var_p_roc_version'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2019-10-05 16:03:24,710 : INFO : EventManager : Event: ======'machine_var_p_roc_revision'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2019-10-05 16:03:24,713 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-10-05 16:03:24,734 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 300, 'prev_value': None, 'change': True}
+2019-10-05 16:03:24,734 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.7', 'prev_value': None, 'change': True}
+2019-10-05 16:03:24,734 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.7, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-10-05 16:03:24,734 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.8', 'prev_value': None, 'change': True}
+2019-10-05 16:03:24,739 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Darwin-18.6.0-x86_64-i386-64bit', 'prev_value': None, 'change': True}
+2019-10-05 16:03:24,739 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2019-10-05 16:03:24,739 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '18.6.0', 'prev_value': None, 'change': True}
+2019-10-05 16:03:24,739 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2019-10-05 16:03:24,739 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2019-10-05 16:03:24,740 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-10-05 16:03:24,755 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/0249fff9f59dc8e53a18683d26ee8d09.mpf_cache
+2019-10-05 16:03:24,757 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/6e32243c848a6341ec6dad7f03232a80.mpf_cache
+2019-10-05 16:03:24,758 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/a8e25c492f388de3c3716813c634f0e8.mpf_cache
+2019-10-05 16:03:24,761 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/f0759ae7f1adf3ca3aa30930aefbe6d9.mpf_cache
+2019-10-05 16:03:24,778 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-10-05 16:03:24,797 : INFO : SwitchController : Found active switch: (8, <Platform.P-ROC>)
+2019-10-05 16:03:24,798 : INFO : SwitchController : Found active switch: (9, <Platform.P-ROC>)
+2019-10-05 16:03:24,798 : INFO : SwitchController : Found active switch: (10, <Platform.P-ROC>)
+2019-10-05 16:03:24,806 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2019-10-05 16:03:24,808 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-10-05 16:03:25,228 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2019-10-05 16:03:25,229 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2019-10-05 16:03:25,231 : INFO : Machine : Starting the main run loop.
+2019-10-05 16:03:25,232 : INFO : Machine : Shutting down...
+2019-10-05 16:03:25,232 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-10-05 16:03:25,241 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2019-10-05 16:03:25,246 : ERROR : asyncio : Exception in callback EventManager._done(<Task finishe... not found',)>)
+handle: <Handle EventManager._done(<Task finishe... not found',)>)>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py", line 690, in _done
+    future.result()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py", line 612, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_player.py", line 87, in _initialise_system_wide
+    self.machine.config[self.config_file_section])
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/config_players/plugin_player.py", line 56, in register_player_events
+    self.bcp_client = self._get_bcp_client(config)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/config_players/plugin_player.py", line 33, in _get_bcp_client
+    "bcp connection {} not found".format(client_name))
+AssertionError: bcp connection local_display not found
+2019-10-05 16:03:25,250 : ERROR : root : bcp connection local_display not found
+Traceback (most recent call last):
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/commands/game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/machine.py", line 709, in run
+    self._run_loop()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py", line 690, in _done
+    future.result()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py", line 612, in _run_handlers_sequential
+    handler.callback(queue=queue, **merged_kwargs)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_player.py", line 87, in _initialise_system_wide
+    self.machine.config[self.config_file_section])
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/config_players/plugin_player.py", line 56, in register_player_events
+    self.bcp_client = self._get_bcp_client(config)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/config_players/plugin_player.py", line 33, in _get_bcp_client
+    "bcp connection {} not found".format(client_name))
+AssertionError: bcp connection local_display not found

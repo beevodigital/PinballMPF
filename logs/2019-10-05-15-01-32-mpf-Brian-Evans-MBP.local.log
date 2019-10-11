@@ -1,0 +1,113 @@
+2019-10-05 15:01:32,069 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.7
+2019-10-05 15:01:32,070 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': '/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2019-10-05-15-01-32-mpf-Brian-Evans-MBP.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-10-05 15:01:32,070 : INFO : Machine : MPF path: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf
+2019-10-05 15:01:32,070 : INFO : Machine : Machine path: /Users/brianevans/Projects/HeistMPF
+2019-10-05 15:01:32,070 : INFO : Machine : Platform: darwin
+2019-10-05 15:01:32,070 : INFO : Machine : Python executable location: /Users/brianevans/Projects/Heist2/bin/python3
+2019-10-05 15:01:32,070 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-10-05 15:01:32,070 : INFO : Machine : Machine config file #1: config.yaml
+2019-10-05 15:01:32,071 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/cbd0102fc3bbffb15d3481666f19a2dc.mpf_cache
+2019-10-05 15:01:32,072 : INFO : Machine : Initialise MPF.
+2019-10-05 15:01:32,127 : INFO : P-ROC : Connecting to P-ROC
+2019-10-05 15:01:32,193 : INFO : P-ROC : Successfully connected to P-ROC/P3-ROC. Firmware Version: 1. Firmware Revision: 22. Hardware Board ID: 0
+2019-10-05 15:01:32,217 : INFO : EventManager : Event: ======'machine_var_p_roc_version'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,217 : INFO : EventManager : Event: ======'machine_var_p_roc_revision'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,220 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,242 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 494, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,242 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.7', 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,242 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.7, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,242 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.8', 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,248 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Darwin-18.6.0-x86_64-i386-64bit', 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,248 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,248 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '18.6.0', 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,248 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,248 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,248 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-10-05 15:01:32,265 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/a8e25c492f388de3c3716813c634f0e8.mpf_cache
+2019-10-05 15:01:32,267 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/6e32243c848a6341ec6dad7f03232a80.mpf_cache
+2019-10-05 15:01:32,269 : WARNING : ConfigProcessor : Config file in cache changed: /Users/brianevans/Projects/HeistMPF/modes/base/config/base.yaml
+2019-10-05 15:01:32,269 : INFO : ConfigProcessor : Loading config from file /Users/brianevans/Projects/HeistMPF/modes/base/config/base.yaml.
+2019-10-05 15:01:32,281 : INFO : ConfigProcessor : Loading config: /Users/brianevans/Projects/HeistMPF/modes/base/config/base.yaml
+2019-10-05 15:01:32,282 : INFO : ConfigProcessor : Config file cache created: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/0249fff9f59dc8e53a18683d26ee8d09.mpf_cache
+2019-10-05 15:01:32,283 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/f0759ae7f1adf3ca3aa30930aefbe6d9.mpf_cache
+2019-10-05 15:01:32,299 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-10-05 15:01:32,318 : INFO : SwitchController : Found active switch: (8, <Platform.P-ROC>)
+2019-10-05 15:01:32,318 : INFO : SwitchController : Found active switch: (9, <Platform.P-ROC>)
+2019-10-05 15:01:32,318 : INFO : SwitchController : Found active switch: (32, <Platform.P-ROC>)
+2019-10-05 15:01:32,327 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2019-10-05 15:01:32,330 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-10-05 15:01:32,959 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2019-10-05 15:01:32,960 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2019-10-05 15:01:32,974 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2019-10-05 15:01:32,980 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2019-10-05 15:01:32,980 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,981 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 5, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,981 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 54, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,981 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 54.888888888888886, 'top': [494, 0, 0, 0, 0, 0, 0, 0, 0], 'total': 9}, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_scoop_shoot'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,981 : INFO : EventManager : Event: ======'machine_var_audits_shots_scoop_shot'====== Args={'value': 97, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_button'====== Args={'value': 97, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 237, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 132, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,982 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 40, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,983 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_middle'====== Args={'value': 45, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,983 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 46, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,983 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 306, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,983 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_scoop'====== Args={'value': 304, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,983 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_left'====== Args={'value': 37, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,984 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,984 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 28, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,984 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 58, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,984 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 79, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,985 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 49, 'prev_value': None, 'change': True}
+2019-10-05 15:01:32,985 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2019-10-05 15:01:32,985 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2019-10-05 15:01:32,985 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2019-10-05 15:01:32,993 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2019-10-05 15:01:32,996 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2019-10-05 15:01:33,001 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2019-10-05 15:01:33,002 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2019-10-05 15:01:33,002 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2019-10-05 15:01:33,002 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2019-10-05 15:01:33,002 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2019-10-05 15:01:33,002 : INFO : Mode.attract : Started. Priority: 10
+2019-10-05 15:01:33,003 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2019-10-05 15:01:33,003 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2019-10-05 15:01:33,003 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-10-05 15:01:33,003 : INFO : Machine : Starting the main run loop.
+2019-10-05 15:01:33,004 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2019-10-05 15:01:33,004 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2019-10-05 15:01:33,004 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': False, 'num_attempts': 0}
+2019-10-05 15:01:33,004 : INFO : coil.c_plunger : Pulsing Driver for 10ms (1.0 pulse_power)
+2019-10-05 15:01:33,005 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2019-10-05 15:01:33,021 : INFO : EventManager : Event: ======'slide_attract_started_created'====== Args={'_from_bcp': True}
+2019-10-05 15:01:33,021 : INFO : EventManager : Event: ======'slide_attract_started_active'====== Args={'_from_bcp': True}
+2019-10-05 15:01:33,050 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2019-10-05 15:01:33,722 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2019-10-05 15:01:33,813 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2019-10-05 15:01:36,120 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2019-10-05 15:01:36,662 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-10-05 15:01:36,807 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-10-05 15:01:36,807 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2019-10-05 15:01:36,811 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2019-10-05 15:01:36,811 : INFO : BallController : bd_trough contains 2 balls. Tags ['trough', 'home', 'drain']
+2019-10-05 15:01:36,811 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2019-10-05 15:01:36,811 : INFO : BallController : bd_scoop contains 0 balls. Tags []
+2019-10-05 15:01:36,811 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2019-10-05 15:01:36,811 : WARNING : BallController : WARNING: BallController denies game start. Balls are not in their home positions.
+2019-10-05 15:01:37,423 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-10-05 15:01:37,684 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-10-05 15:01:37,684 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2019-10-05 15:01:37,688 : INFO : EventManager : Event: ======'collecting_balls'====== Args={}
+2019-10-05 15:01:37,689 : INFO : BallController : bd_trough contains 2 balls. Tags ['trough', 'home', 'drain']
+2019-10-05 15:01:37,689 : INFO : BallController : bd_plunger contains 0 balls. Tags []
+2019-10-05 15:01:37,689 : INFO : BallController : bd_scoop contains 0 balls. Tags []
+2019-10-05 15:01:37,689 : INFO : BallController : playfield contains 0 balls. Tags ['default']
+2019-10-05 15:01:37,689 : WARNING : BallController : WARNING: BallController denies game start. Balls are not in their home positions.
+2019-10-05 15:01:37,873 : INFO : SwitchController : <<<<<<< 's_launch_button' active >>>>>>>
+2019-10-05 15:01:38,017 : INFO : SwitchController : <<<<<<< 's_launch_button' inactive >>>>>>>
+2019-10-05 15:01:38,318 : INFO : SwitchController : <<<<<<< 's_launch_button' active >>>>>>>
+2019-10-05 15:01:38,747 : INFO : SwitchController : <<<<<<< 's_launch_button' inactive >>>>>>>
+2019-10-05 15:01:38,833 : INFO : SwitchController : <<<<<<< 's_launch_button' active >>>>>>>
+2019-10-05 15:01:39,211 : INFO : SwitchController : <<<<<<< 's_launch_button' inactive >>>>>>>
+2019-10-05 15:01:41,890 : INFO : root : MPF run loop ended.

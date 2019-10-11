@@ -1,0 +1,33 @@
+2019-10-04 18:03:38,670 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.7
+2019-10-04 18:03:38,670 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': '/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2019-10-04-18-03-38-mpf-Brian-Evans-MBP.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-10-04 18:03:38,670 : INFO : Machine : MPF path: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf
+2019-10-04 18:03:38,671 : INFO : Machine : Machine path: /Users/brianevans/Projects/HeistMPF
+2019-10-04 18:03:38,671 : INFO : Machine : Platform: darwin
+2019-10-04 18:03:38,671 : INFO : Machine : Python executable location: /Users/brianevans/Projects/Heist2/bin/python3
+2019-10-04 18:03:38,671 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-10-04 18:03:38,671 : INFO : Machine : Machine config file #1: config.yaml
+2019-10-04 18:03:38,672 : WARNING : ConfigProcessor : Config file in cache changed: /Users/brianevans/Projects/HeistMPF/config/config.yaml
+2019-10-04 18:03:38,672 : INFO : ConfigProcessor : Loading config from file /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml.
+2019-10-04 18:03:38,762 : INFO : ConfigProcessor : Loading config: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml
+2019-10-04 18:03:38,770 : INFO : ConfigProcessor : Loading config from file /Users/brianevans/Projects/HeistMPF/config/config.yaml.
+2019-10-04 18:03:38,784 : INFO : ConfigProcessor : Loading config: /Users/brianevans/Projects/HeistMPF/config/config.yaml
+2019-10-04 18:03:38,786 : ERROR : root : Found a "dmd:" section in config file /Users/brianevans/Projects/HeistMPF/config/config.yaml, but that section is not valid in machine config files.
+Traceback (most recent call last):
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_processor.py", line 145, in _load_config_file_and_return_loaded_files
+    if config_type not in self.config_validator.get_config_spec()[k][
+KeyError: 'dmd'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/commands/game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/machine.py", line 175, in __init__
+    self._load_config()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/machine.py", line 444, in _load_config
+    store_to_cache=self.options['create_config_cache'])
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_processor.py", line 112, in load_config_files_with_cache
+    ignore_unknown_sections)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/config_processor.py", line 154, in _load_config_file_and_return_loaded_files
+    'files.'.format(k, filename, config_type))
+ValueError: Found a "dmd:" section in config file /Users/brianevans/Projects/HeistMPF/config/config.yaml, but that section is not valid in machine config files.

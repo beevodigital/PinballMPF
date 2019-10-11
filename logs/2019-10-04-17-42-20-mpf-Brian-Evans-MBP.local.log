@@ -1,0 +1,63 @@
+2019-10-04 17:42:20,726 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.7
+2019-10-04 17:42:20,726 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': False, 'configfile': ['config.yaml'], 'mpfconfigfile': '/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2019-10-04-17-42-20-mpf-Brian-Evans-MBP.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-10-04 17:42:20,727 : INFO : Machine : MPF path: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf
+2019-10-04 17:42:20,727 : INFO : Machine : Machine path: /Users/brianevans/Projects/HeistMPF
+2019-10-04 17:42:20,727 : INFO : Machine : Platform: darwin
+2019-10-04 17:42:20,727 : INFO : Machine : Python executable location: /Users/brianevans/Projects/Heist2/bin/python3
+2019-10-04 17:42:20,727 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-10-04 17:42:20,727 : INFO : Machine : Machine config file #1: config.yaml
+2019-10-04 17:42:20,728 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/cbd0102fc3bbffb15d3481666f19a2dc.mpf_cache
+2019-10-04 17:42:20,729 : INFO : Machine : Initialise MPF.
+2019-10-04 17:42:20,779 : INFO : P3-ROC : Connecting to P-ROC
+2019-10-04 17:42:20,838 : INFO : P3-ROC : Successfully connected to P-ROC/P3-ROC. Firmware Version: 1. Firmware Revision: 22. Hardware Board ID: 0
+2019-10-04 17:42:20,890 : INFO : EventManager : Event: ======'machine_var_p_roc_version'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2019-10-04 17:42:20,890 : INFO : EventManager : Event: ======'machine_var_p_roc_revision'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2019-10-04 17:42:20,895 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-10-04 17:42:20,921 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.7', 'prev_value': None, 'change': True}
+2019-10-04 17:42:20,921 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.7, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-10-04 17:42:20,921 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.8', 'prev_value': None, 'change': True}
+2019-10-04 17:42:20,927 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Darwin-18.6.0-x86_64-i386-64bit', 'prev_value': None, 'change': True}
+2019-10-04 17:42:20,927 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2019-10-04 17:42:20,927 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '18.6.0', 'prev_value': None, 'change': True}
+2019-10-04 17:42:20,927 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2019-10-04 17:42:20,927 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2019-10-04 17:42:20,927 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-10-04 17:42:20,960 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/f0759ae7f1adf3ca3aa30930aefbe6d9.mpf_cache
+2019-10-04 17:42:20,965 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/a8e25c492f388de3c3716813c634f0e8.mpf_cache
+2019-10-04 17:42:20,975 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-10-04 17:42:21,006 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2019-10-04 17:42:21,013 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2019-10-04 17:42:21,014 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-10-04 17:42:21,014 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-10-04 17:42:21,014 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'top': [], 'average': 0, 'total': 0}, 'prev_value': None, 'change': True}
+2019-10-04 17:42:21,014 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2019-10-04 17:42:21,014 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2019-10-04 17:42:21,015 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2019-10-04 17:42:21,015 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2019-10-04 17:42:21,015 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2019-10-04 17:42:21,019 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2019-10-04 17:42:21,019 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2019-10-04 17:42:21,019 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2019-10-04 17:42:21,019 : INFO : Mode.attract : Started. Priority: 10
+2019-10-04 17:42:21,020 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2019-10-04 17:42:21,020 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2019-10-04 17:42:21,020 : INFO : Machine : Starting the main run loop.
+2019-10-04 17:42:27,052 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-04 17:42:27,601 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-04 17:42:27,922 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-04 17:42:28,304 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-04 17:42:28,408 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-04 17:42:28,523 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-04 17:42:28,563 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-04 17:42:28,642 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-04 17:42:28,695 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-04 17:42:28,799 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-04 17:42:28,829 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-04 17:42:28,909 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-04 17:42:30,521 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-04 17:42:30,651 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-04 17:42:30,731 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-04 17:42:30,894 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-04 17:42:33,443 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-04 17:42:33,659 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-04 17:43:03,058 : INFO : root : MPF run loop ended.

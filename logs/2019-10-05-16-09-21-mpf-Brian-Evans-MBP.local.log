@@ -1,0 +1,959 @@
+2019-10-05 16:09:21,872 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.7
+2019-10-05 16:09:21,872 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': '/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2019-10-05-16-09-21-mpf-Brian-Evans-MBP.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-10-05 16:09:21,872 : INFO : Machine : MPF path: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf
+2019-10-05 16:09:21,872 : INFO : Machine : Machine path: /Users/brianevans/Projects/HeistMPF
+2019-10-05 16:09:21,872 : INFO : Machine : Platform: darwin
+2019-10-05 16:09:21,872 : INFO : Machine : Python executable location: /Users/brianevans/Projects/Heist2/bin/python3
+2019-10-05 16:09:21,872 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-10-05 16:09:21,872 : INFO : Machine : Machine config file #1: config.yaml
+2019-10-05 16:09:21,874 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/cbd0102fc3bbffb15d3481666f19a2dc.mpf_cache
+2019-10-05 16:09:21,874 : INFO : Machine : Initialise MPF.
+2019-10-05 16:09:21,931 : INFO : P-ROC : Connecting to P-ROC
+2019-10-05 16:09:22,461 : INFO : P-ROC : Successfully connected to P-ROC/P3-ROC. Firmware Version: 1. Firmware Revision: 22. Hardware Board ID: 0
+2019-10-05 16:09:22,492 : INFO : EventManager : Event: ======'machine_var_p_roc_version'====== Args={'value': 1, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,492 : INFO : EventManager : Event: ======'machine_var_p_roc_revision'====== Args={'value': 22, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,496 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,520 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 300, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,520 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.7', 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,520 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.7, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,520 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.8', 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,527 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Darwin-18.6.0-x86_64-i386-64bit', 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,527 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,527 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '18.6.0', 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,527 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,527 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,527 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-10-05 16:09:22,548 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/f0759ae7f1adf3ca3aa30930aefbe6d9.mpf_cache
+2019-10-05 16:09:22,551 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/a8e25c492f388de3c3716813c634f0e8.mpf_cache
+2019-10-05 16:09:22,554 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/6e32243c848a6341ec6dad7f03232a80.mpf_cache
+2019-10-05 16:09:22,558 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/0249fff9f59dc8e53a18683d26ee8d09.mpf_cache
+2019-10-05 16:09:22,578 : INFO : EventManager : Event: ======'init_phase_2'====== Args={}
+2019-10-05 16:09:22,594 : INFO : SwitchController : Found active switch: (8, <Platform.P-ROC>)
+2019-10-05 16:09:22,594 : INFO : SwitchController : Found active switch: (9, <Platform.P-ROC>)
+2019-10-05 16:09:22,595 : INFO : SwitchController : Found active switch: (10, <Platform.P-ROC>)
+2019-10-05 16:09:22,604 : INFO : EventManager : Event: ======'bcp_connection_attempt'====== Args={'name': 'local_display', 'host': 'localhost', 'port': 5050}
+2019-10-05 16:09:22,606 : INFO : BCPClientSocket.local_display : Connecting BCP to 'local_display' at localhost:5050...
+2019-10-05 16:09:22,716 : INFO : BCPClientSocket.local_display : Connected BCP to 'local_display' localhost:5050
+2019-10-05 16:09:22,716 : INFO : EventManager : Event: ======'bcp_clients_connected'====== Args={}
+2019-10-05 16:09:22,729 : INFO : EventManager : Event: ======'init_phase_3'====== Args={}
+2019-10-05 16:09:22,736 : INFO : EventManager : Event: ======'init_phase_4'====== Args={}
+2019-10-05 16:09:22,737 : INFO : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 13, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,737 : INFO : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 85, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,737 : INFO : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 358.94117647058823, 'top': [2369, 1082, 513, 494, 475, 319, 300, 275, 275, 0], 'total': 17}, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,737 : INFO : EventManager : Event: ======'machine_var_audits_shots_scoop_shoot'====== Args={'value': 12, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,738 : INFO : EventManager : Event: ======'machine_var_audits_shots_scoop_shot'====== Args={'value': 113, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,738 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_button'====== Args={'value': 144, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,738 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 340, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,738 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 196, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,738 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_left'====== Args={'value': 41, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,738 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_middle'====== Args={'value': 69, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,738 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_pop_right'====== Args={'value': 49, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,738 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 436, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,738 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_scoop'====== Args={'value': 320, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,738 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_left'====== Args={'value': 53, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,739 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 23, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,739 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 39, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,739 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 98, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,739 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 122, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,739 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 81, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,739 : INFO : EventManager : Event: ======'init_phase_5'====== Args={}
+2019-10-05 16:09:22,740 : INFO : EventManager : Event: ======'init_done'====== Args={}
+2019-10-05 16:09:22,740 : INFO : EventManager : Event: ======'machine_reset_phase_1'====== Args={}
+2019-10-05 16:09:22,744 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2019-10-05 16:09:22,745 : INFO : EventManager : Event: ======'slide_welcome_slide_removed'====== Args={'_from_bcp': True}
+2019-10-05 16:09:22,745 : INFO : EventManager : Event: ======'slide_welcome_slide_created'====== Args={'_from_bcp': True}
+2019-10-05 16:09:22,747 : INFO : EventManager : Event: ======'slide_welcome_slide_active'====== Args={'_from_bcp': True}
+2019-10-05 16:09:22,747 : INFO : EventManager : Event: ======'machine_reset_phase_2'====== Args={}
+2019-10-05 16:09:22,747 : INFO : EventManager : Event: ======'machine_reset_phase_3'====== Args={}
+2019-10-05 16:09:22,747 : INFO : EventManager : Event: ======'reset_complete'====== Args={}
+2019-10-05 16:09:22,747 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2019-10-05 16:09:22,748 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2019-10-05 16:09:22,748 : INFO : Mode.attract : Started. Priority: 10
+2019-10-05 16:09:22,748 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2019-10-05 16:09:22,748 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2019-10-05 16:09:22,748 : INFO : Machine : Starting the main run loop.
+2019-10-05 16:09:22,764 : INFO : EventManager : Event: ======'slide_attract_started_created'====== Args={'_from_bcp': True}
+2019-10-05 16:09:22,765 : INFO : EventManager : Event: ======'slide_attract_started_active'====== Args={'_from_bcp': True}
+2019-10-05 16:09:24,504 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-10-05 16:09:24,682 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-10-05 16:09:24,682 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2019-10-05 16:09:24,684 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.17792828399979044}
+2019-10-05 16:09:24,684 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.17792828399979044}
+2019-10-05 16:09:24,684 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.17792828399979044}
+2019-10-05 16:09:24,684 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2019-10-05 16:09:24,684 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2019-10-05 16:09:24,684 : INFO : Mode.attract : Stopped.
+2019-10-05 16:09:24,685 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2019-10-05 16:09:24,685 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2019-10-05 16:09:24,685 : INFO : Mode.game : Started. Priority: 20
+2019-10-05 16:09:24,685 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.17792828399979044}
+2019-10-05 16:09:24,685 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2019-10-05 16:09:24,685 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2019-10-05 16:09:24,685 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2019-10-05 16:09:24,685 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2019-10-05 16:09:24,685 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:09:24,685 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2019-10-05 16:09:24,685 : INFO : Mode.game : Player added successfully. Total players: 1
+2019-10-05 16:09:24,686 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2019-10-05 16:09:24,686 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2019-10-05 16:09:24,686 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2019-10-05 16:09:24,686 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2019-10-05 16:09:24,687 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:09:24,687 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:09:24,687 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2019-10-05 16:09:24,687 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:09:24,687 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-10-05 16:09:24,687 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-10-05 16:09:24,687 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-10-05 16:09:24,688 : INFO : EventManager : Event: ======'player_shot_scoop_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2019-10-05 16:09:24,692 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-10-05 16:09:24,692 : INFO : Mode.base : Started. Priority: 100
+2019-10-05 16:09:24,692 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-10-05 16:09:24,692 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2019-10-05 16:09:24,692 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-10-05 16:09:24,699 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2019-10-05 16:09:24,701 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-10-05 16:09:24,701 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:09:24,701 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-10-05 16:09:24,702 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:09:24,702 : INFO : coil.c_trough_eject : Pulsing Driver for 20ms (1.0 pulse_power)
+2019-10-05 16:09:24,703 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_created'====== Args={'_from_bcp': True}
+2019-10-05 16:09:24,706 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_active'====== Args={'_from_bcp': True}
+2019-10-05 16:09:24,866 : INFO : SwitchController : <<<<<<< 's_trough1' inactive >>>>>>>
+2019-10-05 16:09:24,906 : INFO : SwitchController : <<<<<<< 's_trough2' inactive >>>>>>>
+2019-10-05 16:09:24,922 : INFO : SwitchController : <<<<<<< 's_trough3' inactive >>>>>>>
+2019-10-05 16:09:25,024 : INFO : SwitchController : <<<<<<< 's_trough1' active >>>>>>>
+2019-10-05 16:09:25,026 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 99, 'prev_value': 98, 'change': 1}
+2019-10-05 16:09:25,038 : INFO : SwitchController : <<<<<<< 's_trough2' active >>>>>>>
+2019-10-05 16:09:25,040 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 123, 'prev_value': 122, 'change': 1}
+2019-10-05 16:09:25,292 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2019-10-05 16:09:25,293 : INFO : EventManager : Event: ======'s_plunger_lane_active'====== Args={}
+2019-10-05 16:09:25,296 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 197, 'prev_value': 196, 'change': 1}
+2019-10-05 16:09:25,296 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 25, 'prev_value': 0, 'change': 25, 'player_num': 1}
+2019-10-05 16:09:25,795 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_plunger>}
+2019-10-05 16:09:25,795 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_plunger>}
+2019-10-05 16:09:25,795 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2019-10-05 16:09:25,795 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>}
+2019-10-05 16:09:25,795 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:09:25,796 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 2}
+2019-10-05 16:09:25,796 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2019-10-05 16:09:25,796 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:09:27,455 : INFO : SwitchController : <<<<<<< 's_launch_button' active >>>>>>>
+2019-10-05 16:09:27,455 : INFO : EventManager : Event: ======'s_launch_button_active'====== Args={}
+2019-10-05 16:09:27,459 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_button'====== Args={'value': 145, 'prev_value': 144, 'change': 1}
+2019-10-05 16:09:27,459 : INFO : coil.c_plunger : Pulsing Driver for 10ms (1.0 pulse_power)
+2019-10-05 16:09:27,500 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2019-10-05 16:09:27,574 : INFO : SwitchController : <<<<<<< 's_launch_button' inactive >>>>>>>
+2019-10-05 16:09:29,595 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:09:29,599 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 437, 'prev_value': 436, 'change': 1}
+2019-10-05 16:09:29,668 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:09:29,669 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={}
+2019-10-05 16:09:29,672 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 341, 'prev_value': 340, 'change': 1}
+2019-10-05 16:09:29,710 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:09:29,711 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={}
+2019-10-05 16:09:29,807 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:09:29,807 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={}
+2019-10-05 16:09:30,644 : INFO : SwitchController : <<<<<<< 's_trough3' active >>>>>>>
+2019-10-05 16:09:30,647 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 82, 'prev_value': 81, 'change': 1}
+2019-10-05 16:09:31,146 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 3}
+2019-10-05 16:09:31,146 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2019-10-05 16:09:31,146 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2019-10-05 16:09:31,146 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:09:31,146 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': -1, 'change': -1}
+2019-10-05 16:09:31,146 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2019-10-05 16:09:31,147 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2019-10-05 16:09:31,147 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2019-10-05 16:09:31,147 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2019-10-05 16:09:31,147 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': 1}
+2019-10-05 16:09:31,147 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2019-10-05 16:09:31,147 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-10-05 16:09:31,147 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2019-10-05 16:09:31,153 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2019-10-05 16:09:31,154 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2019-10-05 16:09:31,155 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2019-10-05 16:09:31,155 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2019-10-05 16:09:31,155 : INFO : Mode.base : Stopped.
+2019-10-05 16:09:31,155 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2019-10-05 16:09:31,155 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2019-10-05 16:09:31,156 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2019-10-05 16:09:31,157 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:09:31,158 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:09:31,158 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:09:31,158 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:09:31,158 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:09:31,158 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2019-10-05 16:09:31,163 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:09:31,164 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2019-10-05 16:09:31,164 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_removed'====== Args={'_from_bcp': True}
+2019-10-05 16:09:31,164 : INFO : EventManager : Event: ======'slide_attract_started_active'====== Args={'_from_bcp': True}
+2019-10-05 16:09:31,164 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2019-10-05 16:09:31,164 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2019-10-05 16:09:31,166 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2019-10-05 16:09:31,167 : INFO : Mode.base : Started. Priority: 100
+2019-10-05 16:09:31,167 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2019-10-05 16:09:31,167 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2019-10-05 16:09:31,167 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2019-10-05 16:09:31,172 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2019-10-05 16:09:31,172 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-10-05 16:09:31,173 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:09:31,173 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-10-05 16:09:31,173 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:09:31,173 : INFO : coil.c_trough_eject : Pulsing Driver for 20ms (1.0 pulse_power)
+2019-10-05 16:09:31,178 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_created'====== Args={'_from_bcp': True}
+2019-10-05 16:09:31,182 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_active'====== Args={'_from_bcp': True}
+2019-10-05 16:09:31,311 : INFO : SwitchController : <<<<<<< 's_trough1' inactive >>>>>>>
+2019-10-05 16:09:31,372 : INFO : SwitchController : <<<<<<< 's_trough2' inactive >>>>>>>
+2019-10-05 16:09:31,392 : INFO : SwitchController : <<<<<<< 's_trough3' inactive >>>>>>>
+2019-10-05 16:09:31,490 : INFO : SwitchController : <<<<<<< 's_trough1' active >>>>>>>
+2019-10-05 16:09:31,494 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 100, 'prev_value': 99, 'change': 1}
+2019-10-05 16:09:31,506 : INFO : SwitchController : <<<<<<< 's_trough2' active >>>>>>>
+2019-10-05 16:09:31,509 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 124, 'prev_value': 123, 'change': 1}
+2019-10-05 16:09:31,754 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2019-10-05 16:09:31,754 : INFO : EventManager : Event: ======'s_plunger_lane_active'====== Args={}
+2019-10-05 16:09:31,758 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 198, 'prev_value': 197, 'change': 1}
+2019-10-05 16:09:31,758 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 50, 'prev_value': 25, 'change': 25, 'player_num': 1}
+2019-10-05 16:09:31,920 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_plunger_lane
+2019-10-05 16:09:32,256 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_plunger>}
+2019-10-05 16:09:32,256 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_plunger>}
+2019-10-05 16:09:32,257 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2019-10-05 16:09:32,257 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>}
+2019-10-05 16:09:32,257 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:09:32,257 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 2}
+2019-10-05 16:09:32,257 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2019-10-05 16:09:32,258 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:09:33,943 : INFO : SwitchController : <<<<<<< 's_launch_button' active >>>>>>>
+2019-10-05 16:09:33,943 : INFO : EventManager : Event: ======'s_launch_button_active'====== Args={}
+2019-10-05 16:09:33,946 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_button'====== Args={'value': 146, 'prev_value': 145, 'change': 1}
+2019-10-05 16:09:33,947 : INFO : coil.c_plunger : Pulsing Driver for 10ms (1.0 pulse_power)
+2019-10-05 16:09:33,986 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2019-10-05 16:09:34,045 : INFO : SwitchController : <<<<<<< 's_launch_button' inactive >>>>>>>
+2019-10-05 16:09:36,095 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:09:36,099 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 438, 'prev_value': 437, 'change': 1}
+2019-10-05 16:09:36,601 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:09:38,535 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:09:38,539 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 342, 'prev_value': 341, 'change': 1}
+2019-10-05 16:09:38,625 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:09:40,136 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:09:40,139 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 439, 'prev_value': 438, 'change': 1}
+2019-10-05 16:09:40,415 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:09:41,612 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:09:41,615 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 343, 'prev_value': 342, 'change': 1}
+2019-10-05 16:09:41,697 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:09:43,116 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:09:43,120 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 440, 'prev_value': 439, 'change': 1}
+2019-10-05 16:09:43,574 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:09:43,682 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:09:43,686 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 344, 'prev_value': 343, 'change': 1}
+2019-10-05 16:09:44,091 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:09:44,095 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2019-10-05 16:09:44,095 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2019-10-05 16:09:44,095 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2019-10-05 16:09:44,096 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2019-10-05 16:09:44,574 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:09:44,577 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 345, 'prev_value': 344, 'change': 1}
+2019-10-05 16:09:44,695 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:09:46,285 : INFO : SwitchController : <<<<<<< 's_slingshot_left' active >>>>>>>
+2019-10-05 16:09:46,285 : INFO : EventManager : Event: ======'s_slingshot_left_active'====== Args={}
+2019-10-05 16:09:46,289 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_left'====== Args={'value': 54, 'prev_value': 53, 'change': 1}
+2019-10-05 16:09:46,289 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 100, 'prev_value': 50, 'change': 50, 'player_num': 1}
+2019-10-05 16:09:46,301 : INFO : SwitchController : <<<<<<< 's_slingshot_left' inactive >>>>>>>
+2019-10-05 16:09:46,347 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:09:46,418 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:09:46,422 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 441, 'prev_value': 440, 'change': 1}
+2019-10-05 16:09:46,434 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:09:46,462 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:09:46,476 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:09:46,488 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:09:46,488 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={}
+2019-10-05 16:09:46,491 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 346, 'prev_value': 345, 'change': 1}
+2019-10-05 16:09:46,531 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:09:46,531 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={}
+2019-10-05 16:09:46,721 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:09:46,721 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={}
+2019-10-05 16:09:47,145 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:09:47,149 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 347, 'prev_value': 346, 'change': 1}
+2019-10-05 16:09:47,255 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:09:48,737 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:09:48,741 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 442, 'prev_value': 441, 'change': 1}
+2019-10-05 16:09:48,835 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:09:49,960 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:09:49,964 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 443, 'prev_value': 442, 'change': 1}
+2019-10-05 16:09:50,165 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:09:50,376 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_pop_right
+2019-10-05 16:09:50,405 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_pop_right
+2019-10-05 16:09:53,181 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:09:53,184 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 348, 'prev_value': 347, 'change': 1}
+2019-10-05 16:09:53,317 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:09:56,034 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:09:56,037 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 444, 'prev_value': 443, 'change': 1}
+2019-10-05 16:09:56,080 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:09:56,080 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={}
+2019-10-05 16:09:56,083 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 349, 'prev_value': 348, 'change': 1}
+2019-10-05 16:09:56,115 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:09:56,115 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={}
+2019-10-05 16:09:56,229 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:09:56,229 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={}
+2019-10-05 16:09:59,105 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:09:59,109 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 350, 'prev_value': 349, 'change': 1}
+2019-10-05 16:09:59,244 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:10:00,387 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:10:00,390 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 351, 'prev_value': 350, 'change': 1}
+2019-10-05 16:10:00,514 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:10:01,716 : INFO : SwitchController : <<<<<<< 's_slingshot_left' active >>>>>>>
+2019-10-05 16:10:01,716 : INFO : EventManager : Event: ======'s_slingshot_left_active'====== Args={}
+2019-10-05 16:10:01,719 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_left'====== Args={'value': 55, 'prev_value': 54, 'change': 1}
+2019-10-05 16:10:01,720 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 150, 'prev_value': 100, 'change': 50, 'player_num': 1}
+2019-10-05 16:10:01,735 : INFO : SwitchController : <<<<<<< 's_slingshot_left' inactive >>>>>>>
+2019-10-05 16:10:01,806 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:01,836 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:10:01,838 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 445, 'prev_value': 444, 'change': 1}
+2019-10-05 16:10:01,839 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:01,867 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:01,904 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:01,934 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:01,950 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:10:01,950 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={}
+2019-10-05 16:10:01,953 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 352, 'prev_value': 351, 'change': 1}
+2019-10-05 16:10:01,969 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:10:01,970 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={}
+2019-10-05 16:10:02,100 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:10:02,100 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={}
+2019-10-05 16:10:02,342 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:10:02,346 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 446, 'prev_value': 445, 'change': 1}
+2019-10-05 16:10:02,700 : INFO : SwitchController : <<<<<<< 's_slingshot_left' active >>>>>>>
+2019-10-05 16:10:02,700 : INFO : EventManager : Event: ======'s_slingshot_left_active'====== Args={}
+2019-10-05 16:10:02,704 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_left'====== Args={'value': 56, 'prev_value': 55, 'change': 1}
+2019-10-05 16:10:02,704 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 200, 'prev_value': 150, 'change': 50, 'player_num': 1}
+2019-10-05 16:10:02,715 : INFO : SwitchController : <<<<<<< 's_slingshot_left' inactive >>>>>>>
+2019-10-05 16:10:02,790 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:03,068 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:10:03,237 : INFO : SwitchController : <<<<<<< 's_slingshot_left' active >>>>>>>
+2019-10-05 16:10:03,238 : INFO : EventManager : Event: ======'s_slingshot_left_active'====== Args={}
+2019-10-05 16:10:03,241 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_left'====== Args={'value': 57, 'prev_value': 56, 'change': 1}
+2019-10-05 16:10:03,241 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 250, 'prev_value': 200, 'change': 50, 'player_num': 1}
+2019-10-05 16:10:03,254 : INFO : SwitchController : <<<<<<< 's_slingshot_left' inactive >>>>>>>
+2019-10-05 16:10:03,269 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:03,286 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:03,314 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:03,356 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:03,371 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:03,411 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:03,452 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:03,467 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:03,482 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:03,496 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:03,566 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:05,312 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:10:05,316 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 353, 'prev_value': 352, 'change': 1}
+2019-10-05 16:10:05,633 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:10:07,304 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:10:07,308 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 447, 'prev_value': 446, 'change': 1}
+2019-10-05 16:10:07,363 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:10:07,363 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={}
+2019-10-05 16:10:07,366 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 354, 'prev_value': 353, 'change': 1}
+2019-10-05 16:10:07,367 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:10:07,367 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={}
+2019-10-05 16:10:07,442 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:07,455 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:07,496 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:10:07,496 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={}
+2019-10-05 16:10:08,836 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:08,860 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:08,889 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:08,931 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:10:08,934 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 448, 'prev_value': 447, 'change': 1}
+2019-10-05 16:10:08,977 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:08,977 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:09,019 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:09,073 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:10:10,408 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:10,651 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:10:10,655 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 449, 'prev_value': 448, 'change': 1}
+2019-10-05 16:10:10,887 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:10:11,066 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:10:11,069 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 355, 'prev_value': 354, 'change': 1}
+2019-10-05 16:10:11,234 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:10:14,317 : INFO : SwitchController : <<<<<<< 's_trough3' active >>>>>>>
+2019-10-05 16:10:14,321 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 83, 'prev_value': 82, 'change': 1}
+2019-10-05 16:10:14,823 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 3}
+2019-10-05 16:10:14,823 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2019-10-05 16:10:14,823 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2019-10-05 16:10:14,823 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2019-10-05 16:10:14,823 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2019-10-05 16:10:14,824 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2019-10-05 16:10:14,824 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2019-10-05 16:10:14,824 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-10-05 16:10:14,824 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2019-10-05 16:10:14,829 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2019-10-05 16:10:14,831 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2019-10-05 16:10:14,831 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2019-10-05 16:10:14,831 : INFO : Mode.base : Stopped.
+2019-10-05 16:10:14,832 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2019-10-05 16:10:14,832 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2019-10-05 16:10:14,833 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2019-10-05 16:10:14,834 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:10:14,834 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:10:14,834 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:10:14,834 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:10:14,834 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:10:14,834 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2019-10-05 16:10:14,837 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:10:14,838 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2019-10-05 16:10:14,838 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_removed'====== Args={'_from_bcp': True}
+2019-10-05 16:10:14,838 : INFO : EventManager : Event: ======'slide_attract_started_active'====== Args={'_from_bcp': True}
+2019-10-05 16:10:14,838 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2019-10-05 16:10:14,838 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2019-10-05 16:10:14,841 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2019-10-05 16:10:14,841 : INFO : Mode.base : Started. Priority: 100
+2019-10-05 16:10:14,841 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2019-10-05 16:10:14,841 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2019-10-05 16:10:14,841 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 3, 'balls_remaining': 0, 'is_extra_ball': False}
+2019-10-05 16:10:14,845 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2019-10-05 16:10:14,846 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-10-05 16:10:14,846 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:10:14,847 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-10-05 16:10:14,847 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:10:14,847 : INFO : coil.c_trough_eject : Pulsing Driver for 20ms (1.0 pulse_power)
+2019-10-05 16:10:14,854 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_created'====== Args={'_from_bcp': True}
+2019-10-05 16:10:14,858 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_active'====== Args={'_from_bcp': True}
+2019-10-05 16:10:14,985 : INFO : SwitchController : <<<<<<< 's_trough1' inactive >>>>>>>
+2019-10-05 16:10:15,031 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_trough2
+2019-10-05 16:10:15,059 : INFO : SwitchController : <<<<<<< 's_trough2' inactive >>>>>>>
+2019-10-05 16:10:15,063 : INFO : SwitchController : <<<<<<< 's_trough3' inactive >>>>>>>
+2019-10-05 16:10:15,176 : INFO : SwitchController : <<<<<<< 's_trough1' active >>>>>>>
+2019-10-05 16:10:15,180 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 101, 'prev_value': 100, 'change': 1}
+2019-10-05 16:10:15,180 : INFO : SwitchController : <<<<<<< 's_trough2' active >>>>>>>
+2019-10-05 16:10:15,183 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 125, 'prev_value': 124, 'change': 1}
+2019-10-05 16:10:15,387 : INFO : SwitchController : <<<<<<< 's_slingshot_left' active >>>>>>>
+2019-10-05 16:10:15,387 : INFO : EventManager : Event: ======'s_slingshot_left_active'====== Args={}
+2019-10-05 16:10:15,388 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:10:15,388 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2019-10-05 16:10:15,391 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_left'====== Args={'value': 58, 'prev_value': 57, 'change': 1}
+2019-10-05 16:10:15,392 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 300, 'prev_value': 250, 'change': 50, 'player_num': 1}
+2019-10-05 16:10:15,406 : INFO : SwitchController : <<<<<<< 's_slingshot_left' inactive >>>>>>>
+2019-10-05 16:10:15,435 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2019-10-05 16:10:15,435 : INFO : EventManager : Event: ======'s_plunger_lane_active'====== Args={}
+2019-10-05 16:10:15,438 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 199, 'prev_value': 198, 'change': 1}
+2019-10-05 16:10:15,439 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 325, 'prev_value': 300, 'change': 25, 'player_num': 1}
+2019-10-05 16:10:15,466 : INFO : SwitchController : <<<<<<< 's_slingshot_left' active >>>>>>>
+2019-10-05 16:10:15,466 : INFO : EventManager : Event: ======'s_slingshot_left_active'====== Args={}
+2019-10-05 16:10:15,467 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:10:15,467 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2019-10-05 16:10:15,470 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_left'====== Args={'value': 59, 'prev_value': 58, 'change': 1}
+2019-10-05 16:10:15,470 : INFO : SwitchController : <<<<<<< 's_slingshot_left' inactive >>>>>>>
+2019-10-05 16:10:15,473 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 375, 'prev_value': 325, 'change': 50, 'player_num': 1}
+2019-10-05 16:10:15,555 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:15,567 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2019-10-05 16:10:15,585 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:17,881 : INFO : SwitchController : <<<<<<< 's_slingshot_left' active >>>>>>>
+2019-10-05 16:10:17,882 : INFO : EventManager : Event: ======'s_slingshot_left_active'====== Args={}
+2019-10-05 16:10:17,882 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:10:17,882 : INFO : EventManager : Event: ======'unexpected_ball_on_playfield'====== Args={}
+2019-10-05 16:10:17,885 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_left'====== Args={'value': 60, 'prev_value': 59, 'change': 1}
+2019-10-05 16:10:17,886 : INFO : SwitchController : <<<<<<< 's_slingshot_left' inactive >>>>>>>
+2019-10-05 16:10:17,889 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 425, 'prev_value': 375, 'change': 50, 'player_num': 1}
+2019-10-05 16:10:17,947 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:18,113 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2019-10-05 16:10:18,114 : INFO : EventManager : Event: ======'s_plunger_lane_active'====== Args={}
+2019-10-05 16:10:18,117 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 200, 'prev_value': 199, 'change': 1}
+2019-10-05 16:10:18,118 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 450, 'prev_value': 425, 'change': 25, 'player_num': 1}
+2019-10-05 16:10:18,615 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_plunger>}
+2019-10-05 16:10:18,615 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_plunger>}
+2019-10-05 16:10:18,615 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2019-10-05 16:10:18,615 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>}
+2019-10-05 16:10:18,616 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:10:18,616 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 2}
+2019-10-05 16:10:18,616 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2019-10-05 16:10:18,616 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:10:21,385 : INFO : SwitchController : <<<<<<< 's_launch_button' active >>>>>>>
+2019-10-05 16:10:21,385 : INFO : EventManager : Event: ======'s_launch_button_active'====== Args={}
+2019-10-05 16:10:21,389 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_button'====== Args={'value': 147, 'prev_value': 146, 'change': 1}
+2019-10-05 16:10:21,389 : INFO : coil.c_plunger : Pulsing Driver for 10ms (1.0 pulse_power)
+2019-10-05 16:10:21,428 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2019-10-05 16:10:21,471 : INFO : SwitchController : <<<<<<< 's_launch_button' inactive >>>>>>>
+2019-10-05 16:10:23,541 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:10:23,543 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 356, 'prev_value': 355, 'change': 1}
+2019-10-05 16:10:23,634 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:10:23,634 : INFO : EventManager : Event: ======'flipper_cancel'====== Args={}
+2019-10-05 16:10:23,636 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 450, 'prev_value': 449, 'change': 1}
+2019-10-05 16:10:23,663 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:10:23,664 : INFO : EventManager : Event: ======'both_flippers_one'====== Args={}
+2019-10-05 16:10:23,975 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:10:23,976 : INFO : EventManager : Event: ======'both_flippers_inactive'====== Args={}
+2019-10-05 16:10:24,907 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:10:24,911 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 357, 'prev_value': 356, 'change': 1}
+2019-10-05 16:10:25,169 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:10:25,197 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:10:25,201 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 451, 'prev_value': 450, 'change': 1}
+2019-10-05 16:10:25,573 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:10:27,351 : INFO : SwitchController : <<<<<<< 's_trough3' active >>>>>>>
+2019-10-05 16:10:27,354 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 84, 'prev_value': 83, 'change': 1}
+2019-10-05 16:10:27,851 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 3}
+2019-10-05 16:10:27,852 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2019-10-05 16:10:27,852 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2019-10-05 16:10:27,852 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:10:27,852 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': -1, 'change': -1}
+2019-10-05 16:10:27,852 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2019-10-05 16:10:27,852 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2019-10-05 16:10:27,853 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2019-10-05 16:10:27,853 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2019-10-05 16:10:27,853 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': 1}
+2019-10-05 16:10:27,853 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2019-10-05 16:10:27,853 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-10-05 16:10:27,853 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2019-10-05 16:10:27,858 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2019-10-05 16:10:27,859 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2019-10-05 16:10:27,865 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2019-10-05 16:10:27,865 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2019-10-05 16:10:27,866 : INFO : Mode.base : Stopped.
+2019-10-05 16:10:27,866 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2019-10-05 16:10:27,866 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2019-10-05 16:10:27,867 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2019-10-05 16:10:27,867 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:10:27,867 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:10:27,868 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:10:27,868 : INFO : EventManager : Event: ======'game_will_end'====== Args={}
+2019-10-05 16:10:27,868 : INFO : EventManager : Event: ======'game_ending'====== Args={}
+2019-10-05 16:10:27,868 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 450, 'prev_value': 300, 'change': 150}
+2019-10-05 16:10:27,868 : INFO : EventManager : Event: ======'game_ended'====== Args={}
+2019-10-05 16:10:27,868 : INFO : EventManager : Event: ======'mode_game_will_stop'====== Args={}
+2019-10-05 16:10:27,868 : INFO : EventManager : Event: ======'mode_game_stopping'====== Args={}
+2019-10-05 16:10:27,869 : INFO : EventManager : Event: ======'mode_attract_will_start'====== Args={}
+2019-10-05 16:10:27,869 : INFO : EventManager : Event: ======'mode_attract_starting'====== Args={}
+2019-10-05 16:10:27,869 : INFO : Mode.attract : Started. Priority: 10
+2019-10-05 16:10:27,869 : INFO : EventManager : Event: ======'mode_attract_started'====== Args={}
+2019-10-05 16:10:27,870 : INFO : EventManager : Event: ======'collecting_balls_complete'====== Args={}
+2019-10-05 16:10:27,870 : INFO : Mode.game : Stopped.
+2019-10-05 16:10:27,870 : INFO : EventManager : Event: ======'mode_game_stopped'====== Args={}
+2019-10-05 16:10:27,870 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'game'}
+2019-10-05 16:10:27,881 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_removed'====== Args={'_from_bcp': True}
+2019-10-05 16:10:27,885 : INFO : EventManager : Event: ======'slide_attract_started_removed'====== Args={'_from_bcp': True}
+2019-10-05 16:10:27,886 : INFO : EventManager : Event: ======'slide_attract_started_created'====== Args={'_from_bcp': True}
+2019-10-05 16:10:27,887 : INFO : EventManager : Event: ======'slide_attract_started_active'====== Args={'_from_bcp': True}
+2019-10-05 16:10:29,246 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:29,275 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:29,383 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:29,427 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:31,451 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:33,086 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:34,569 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:36,161 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:36,473 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:37,573 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:37,619 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:37,635 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:39,962 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:39,990 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:40,075 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:40,090 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:40,108 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:40,161 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:41,076 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:41,602 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:41,615 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:41,618 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:41,638 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:41,654 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:42,904 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:43,364 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:44,628 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:45,387 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:45,387 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:45,418 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:45,422 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:46,168 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:46,208 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:46,346 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:46,926 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:47,346 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:47,349 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:47,449 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:47,993 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:48,006 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:48,402 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:52,427 : INFO : SwitchController : <<<<<<< 's_start' active >>>>>>>
+2019-10-05 16:10:52,606 : INFO : SwitchController : <<<<<<< 's_start' inactive >>>>>>>
+2019-10-05 16:10:52,606 : INFO : EventManager : Event: ======'request_to_start_game'====== Args={}
+2019-10-05 16:10:52,609 : INFO : EventManager : Event: ======'game_start'====== Args={'buttons': [], 'hold_time': 0.17869653899833793}
+2019-10-05 16:10:52,609 : INFO : EventManager : Event: ======'mode_game_will_start'====== Args={'buttons': [], 'hold_time': 0.17869653899833793}
+2019-10-05 16:10:52,610 : INFO : EventManager : Event: ======'mode_game_starting'====== Args={'buttons': [], 'hold_time': 0.17869653899833793}
+2019-10-05 16:10:52,610 : INFO : EventManager : Event: ======'mode_attract_will_stop'====== Args={}
+2019-10-05 16:10:52,610 : INFO : EventManager : Event: ======'mode_attract_stopping'====== Args={}
+2019-10-05 16:10:52,610 : INFO : Mode.attract : Stopped.
+2019-10-05 16:10:52,610 : INFO : EventManager : Event: ======'mode_attract_stopped'====== Args={}
+2019-10-05 16:10:52,610 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'attract'}
+2019-10-05 16:10:52,610 : INFO : Mode.game : Started. Priority: 20
+2019-10-05 16:10:52,610 : INFO : EventManager : Event: ======'mode_game_started'====== Args={'buttons': [], 'hold_time': 0.17869653899833793}
+2019-10-05 16:10:52,611 : INFO : EventManager : Event: ======'game_will_start'====== Args={}
+2019-10-05 16:10:52,611 : INFO : EventManager : Event: ======'game_starting'====== Args={'game': <Mode.game>}
+2019-10-05 16:10:52,611 : INFO : EventManager : Event: ======'player_add_request'====== Args={}
+2019-10-05 16:10:52,612 : INFO : EventManager : Event: ======'player_will_add'====== Args={'number': 1}
+2019-10-05 16:10:52,612 : INFO : EventManager : Event: ======'player_adding'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:10:52,612 : INFO : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2019-10-05 16:10:52,612 : INFO : Mode.game : Player added successfully. Total players: 1
+2019-10-05 16:10:52,612 : INFO : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2019-10-05 16:10:52,612 : INFO : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2019-10-05 16:10:52,612 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2019-10-05 16:10:52,613 : INFO : EventManager : Event: ======'game_started'====== Args={}
+2019-10-05 16:10:52,613 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:10:52,613 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:10:52,613 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2019-10-05 16:10:52,613 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:10:52,614 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-10-05 16:10:52,614 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-10-05 16:10:52,614 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-10-05 16:10:52,614 : INFO : EventManager : Event: ======'player_shot_scoop_shot_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2019-10-05 16:10:52,620 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-10-05 16:10:52,621 : INFO : Mode.base : Started. Priority: 100
+2019-10-05 16:10:52,621 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-10-05 16:10:52,621 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2019-10-05 16:10:52,621 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2019-10-05 16:10:52,626 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2019-10-05 16:10:52,627 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-10-05 16:10:52,627 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:10:52,627 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-10-05 16:10:52,627 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:10:52,628 : INFO : coil.c_trough_eject : Pulsing Driver for 20ms (1.0 pulse_power)
+2019-10-05 16:10:52,639 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_created'====== Args={'_from_bcp': True}
+2019-10-05 16:10:52,643 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_active'====== Args={'_from_bcp': True}
+2019-10-05 16:10:52,741 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:52,801 : INFO : SwitchController : <<<<<<< 's_trough1' inactive >>>>>>>
+2019-10-05 16:10:52,818 : INFO : SwitchController : <<<<<<< 's_trough2' inactive >>>>>>>
+2019-10-05 16:10:52,834 : INFO : SwitchController : <<<<<<< 's_trough2' active >>>>>>>
+2019-10-05 16:10:52,837 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 126, 'prev_value': 125, 'change': 1}
+2019-10-05 16:10:52,855 : INFO : SwitchController : <<<<<<< 's_trough2' inactive >>>>>>>
+2019-10-05 16:10:52,858 : INFO : SwitchController : <<<<<<< 's_trough3' inactive >>>>>>>
+2019-10-05 16:10:52,862 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:52,885 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:52,886 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:52,905 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:52,955 : INFO : SwitchController : <<<<<<< 's_trough1' active >>>>>>>
+2019-10-05 16:10:52,958 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 102, 'prev_value': 101, 'change': 1}
+2019-10-05 16:10:52,971 : INFO : SwitchController : <<<<<<< 's_trough2' active >>>>>>>
+2019-10-05 16:10:52,974 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 127, 'prev_value': 126, 'change': 1}
+2019-10-05 16:10:53,224 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2019-10-05 16:10:53,224 : INFO : EventManager : Event: ======'s_plunger_lane_active'====== Args={}
+2019-10-05 16:10:53,228 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 201, 'prev_value': 200, 'change': 1}
+2019-10-05 16:10:53,228 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 25, 'prev_value': 0, 'change': 25, 'player_num': 1}
+2019-10-05 16:10:53,725 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_plunger>}
+2019-10-05 16:10:53,725 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_plunger>}
+2019-10-05 16:10:53,725 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2019-10-05 16:10:53,726 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>}
+2019-10-05 16:10:53,726 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:10:53,726 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 2}
+2019-10-05 16:10:53,726 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2019-10-05 16:10:53,726 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:10:54,082 : INFO : SwitchController : <<<<<<< 's_launch_button' active >>>>>>>
+2019-10-05 16:10:54,083 : INFO : EventManager : Event: ======'s_launch_button_active'====== Args={}
+2019-10-05 16:10:54,086 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_button'====== Args={'value': 148, 'prev_value': 147, 'change': 1}
+2019-10-05 16:10:54,086 : INFO : coil.c_plunger : Pulsing Driver for 10ms (1.0 pulse_power)
+2019-10-05 16:10:54,125 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2019-10-05 16:10:54,169 : INFO : SwitchController : <<<<<<< 's_launch_button' inactive >>>>>>>
+2019-10-05 16:10:54,454 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:54,508 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:54,596 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:54,655 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,458 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:10:56,462 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 452, 'prev_value': 451, 'change': 1}
+2019-10-05 16:10:56,487 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,554 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,566 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,595 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,680 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,720 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,735 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,735 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,764 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,778 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,778 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:10:56,793 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,819 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,819 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,848 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,915 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,942 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:56,942 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:10:56,942 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:10:56,945 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 24, 'prev_value': 23, 'change': 1}
+2019-10-05 16:10:56,946 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 75, 'prev_value': 25, 'change': 50, 'player_num': 1}
+2019-10-05 16:10:56,946 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2019-10-05 16:10:56,946 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2019-10-05 16:10:56,946 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2019-10-05 16:10:56,947 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2019-10-05 16:10:56,957 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:56,960 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:56,988 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:57,015 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:57,842 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:10:57,845 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 453, 'prev_value': 452, 'change': 1}
+2019-10-05 16:10:57,933 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:10:57,934 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:10:57,937 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 25, 'prev_value': 24, 'change': 1}
+2019-10-05 16:10:57,937 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 125, 'prev_value': 75, 'change': 50, 'player_num': 1}
+2019-10-05 16:10:57,949 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:10:58,019 : INFO : SwitchController : <<<<<<< 's_slingshot_left' active >>>>>>>
+2019-10-05 16:10:58,019 : INFO : EventManager : Event: ======'s_slingshot_left_active'====== Args={}
+2019-10-05 16:10:58,022 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_left'====== Args={'value': 61, 'prev_value': 60, 'change': 1}
+2019-10-05 16:10:58,022 : INFO : SwitchController : <<<<<<< 's_slingshot_left' inactive >>>>>>>
+2019-10-05 16:10:58,025 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 175, 'prev_value': 125, 'change': 50, 'player_num': 1}
+2019-10-05 16:10:58,063 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:58,074 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:10:58,089 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:58,100 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:58,114 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_left
+2019-10-05 16:10:58,231 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:11:01,444 : INFO : SwitchController : <<<<<<< 's_trough3' active >>>>>>>
+2019-10-05 16:11:01,447 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough3'====== Args={'value': 85, 'prev_value': 84, 'change': 1}
+2019-10-05 16:11:01,944 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 3}
+2019-10-05 16:11:01,945 : INFO : EventManager : Event: ======'balldevice_captured_from_playfield'====== Args={'balls': 1}
+2019-10-05 16:11:01,945 : INFO : EventManager : Event: ======'sw_playfield_active'====== Args={'balls': 1}
+2019-10-05 16:11:01,945 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 0, 'change': -1}
+2019-10-05 16:11:01,945 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'new_available_balls': 1, 'device': <ball_device.bd_trough>}
+2019-10-05 16:11:01,945 : INFO : EventManager : Event: ======'ball_drain'====== Args={'device': <ball_device.bd_trough>, 'balls': 1}
+2019-10-05 16:11:01,945 : INFO : EventManager : Event: ======'ball_will_end'====== Args={}
+2019-10-05 16:11:01,945 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-10-05 16:11:01,945 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_entered'====== Args={'new_balls': 1, 'device': <ball_device.bd_trough>}
+2019-10-05 16:11:01,957 : INFO : EventManager : Event: ======'ball_ending'====== Args={}
+2019-10-05 16:11:01,958 : INFO : EventManager : Event: ======'mode_base_will_stop'====== Args={}
+2019-10-05 16:11:01,958 : INFO : EventManager : Event: ======'mode_base_stopping'====== Args={}
+2019-10-05 16:11:01,958 : INFO : Mode.base : Stopped.
+2019-10-05 16:11:01,958 : INFO : EventManager : Event: ======'mode_base_stopped'====== Args={}
+2019-10-05 16:11:01,958 : INFO : EventManager : Event: ======'clear'====== Args={'key': 'base'}
+2019-10-05 16:11:01,959 : INFO : EventManager : Event: ======'ball_ended'====== Args={}
+2019-10-05 16:11:01,959 : INFO : EventManager : Event: ======'player_turn_will_end'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:11:01,959 : INFO : EventManager : Event: ======'player_turn_ending'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:11:01,960 : INFO : EventManager : Event: ======'player_turn_ended'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:11:01,960 : INFO : EventManager : Event: ======'player_turn_will_start'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:11:01,961 : INFO : EventManager : Event: ======'player_turn_starting'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:11:01,961 : INFO : EventManager : Event: ======'player_ball'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2019-10-05 16:11:01,961 : INFO : EventManager : Event: ======'player_turn_started'====== Args={'player': <Player 1>, 'number': 1}
+2019-10-05 16:11:01,962 : INFO : EventManager : Event: ======'ball_will_start'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2019-10-05 16:11:01,962 : INFO : EventManager : Event: ======'ball_starting'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2019-10-05 16:11:01,962 : INFO : EventManager : Event: ======'mode_base_will_start'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2019-10-05 16:11:01,964 : INFO : EventManager : Event: ======'mode_base_starting'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2019-10-05 16:11:01,964 : INFO : Mode.base : Started. Priority: 100
+2019-10-05 16:11:01,964 : INFO : EventManager : Event: ======'mode_base_started'====== Args={'queue': <QueuedEvent>, 'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2019-10-05 16:11:01,965 : INFO : EventManager : Event: ======'balls_in_play'====== Args={'balls': 1}
+2019-10-05 16:11:01,965 : INFO : EventManager : Event: ======'ball_started'====== Args={'player': 1, 'ball': 2, 'balls_remaining': 1, 'is_extra_ball': False}
+2019-10-05 16:11:01,969 : INFO : EventManager : Event: ======'single_player_ball_started'====== Args={}
+2019-10-05 16:11:01,969 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_removed'====== Args={'_from_bcp': True}
+2019-10-05 16:11:01,970 : INFO : EventManager : Event: ======'balldevice_balls_available'====== Args={}
+2019-10-05 16:11:01,970 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_attempt'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:11:01,971 : INFO : ball_device.bd_trough : Ejecting ball to <ball_device.bd_plunger>
+2019-10-05 16:11:01,971 : INFO : EventManager : Event: ======'balldevice_bd_trough_ejecting_ball'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>, 'source': <ball_device.bd_trough>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:11:01,971 : INFO : coil.c_trough_eject : Pulsing Driver for 20ms (1.0 pulse_power)
+2019-10-05 16:11:01,976 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_created'====== Args={'_from_bcp': True}
+2019-10-05 16:11:01,976 : INFO : EventManager : Event: ======'slide_base.slide_player-mode_base_started_active'====== Args={'_from_bcp': True}
+2019-10-05 16:11:02,140 : INFO : SwitchController : <<<<<<< 's_trough1' inactive >>>>>>>
+2019-10-05 16:11:02,173 : INFO : SwitchController : <<<<<<< 's_trough2' inactive >>>>>>>
+2019-10-05 16:11:02,190 : INFO : SwitchController : <<<<<<< 's_trough3' inactive >>>>>>>
+2019-10-05 16:11:02,297 : INFO : SwitchController : <<<<<<< 's_trough1' active >>>>>>>
+2019-10-05 16:11:02,300 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough1'====== Args={'value': 103, 'prev_value': 102, 'change': 1}
+2019-10-05 16:11:02,316 : INFO : SwitchController : <<<<<<< 's_trough2' active >>>>>>>
+2019-10-05 16:11:02,320 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_trough2'====== Args={'value': 128, 'prev_value': 127, 'change': 1}
+2019-10-05 16:11:02,554 : INFO : SwitchController : <<<<<<< 's_plunger_lane' active >>>>>>>
+2019-10-05 16:11:02,555 : INFO : EventManager : Event: ======'s_plunger_lane_active'====== Args={}
+2019-10-05 16:11:02,558 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_plunger_lane'====== Args={'value': 202, 'prev_value': 201, 'change': 1}
+2019-10-05 16:11:02,559 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 200, 'prev_value': 175, 'change': 25, 'player_num': 1}
+2019-10-05 16:11:03,055 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 0, 'new_available_balls': 0, 'device': <ball_device.bd_plunger>}
+2019-10-05 16:11:03,056 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_entered'====== Args={'new_balls': 0, 'device': <ball_device.bd_plunger>}
+2019-10-05 16:11:03,056 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 1}
+2019-10-05 16:11:03,056 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_eject_success'====== Args={'balls': 1, 'target': <ball_device.bd_plunger>}
+2019-10-05 16:11:03,056 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_attempt'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:11:03,056 : INFO : EventManager : Event: ======'balldevice_bd_trough_ball_count_changed'====== Args={'balls': 2}
+2019-10-05 16:11:03,057 : INFO : ball_device.bd_plunger : Ejecting ball to <playfield.playfield>
+2019-10-05 16:11:03,057 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ejecting_ball'====== Args={'balls': 1, 'target': <playfield.playfield>, 'source': <ball_device.bd_plunger>, 'mechanical_eject': True, 'num_attempts': 0}
+2019-10-05 16:11:04,109 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:04,110 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:04,110 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:04,113 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 26, 'prev_value': 25, 'change': 1}
+2019-10-05 16:11:04,114 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 250, 'prev_value': 200, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:04,125 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:04,128 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_plunger_lane
+2019-10-05 16:11:04,171 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:04,171 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:04,171 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:04,174 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 27, 'prev_value': 26, 'change': 1}
+2019-10-05 16:11:04,174 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:04,177 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 300, 'prev_value': 250, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:04,199 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:04,199 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:04,199 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:04,203 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 28, 'prev_value': 27, 'change': 1}
+2019-10-05 16:11:04,203 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:04,206 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:04,206 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 350, 'prev_value': 300, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:04,245 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:04,317 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:04,727 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:04,727 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:04,727 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:04,730 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 29, 'prev_value': 28, 'change': 1}
+2019-10-05 16:11:04,730 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:04,733 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 400, 'prev_value': 350, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:04,748 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_plunger_lane
+2019-10-05 16:11:04,773 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:04,788 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:04,788 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:04,788 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:04,792 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 30, 'prev_value': 29, 'change': 1}
+2019-10-05 16:11:04,792 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 450, 'prev_value': 400, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:04,807 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:04,807 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:04,876 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:05,552 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:05,552 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:05,552 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:05,556 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 31, 'prev_value': 30, 'change': 1}
+2019-10-05 16:11:05,556 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:05,559 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 500, 'prev_value': 450, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:05,576 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_plunger_lane
+2019-10-05 16:11:05,617 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:05,631 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:05,632 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:05,632 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:05,635 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 32, 'prev_value': 31, 'change': 1}
+2019-10-05 16:11:05,636 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:05,639 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 550, 'prev_value': 500, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:05,650 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:05,650 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:05,651 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:05,654 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 33, 'prev_value': 32, 'change': 1}
+2019-10-05 16:11:05,654 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 600, 'prev_value': 550, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:05,668 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:05,685 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:05,686 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:05,701 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:05,741 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:05,741 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:05,741 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:05,745 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 34, 'prev_value': 33, 'change': 1}
+2019-10-05 16:11:05,745 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 650, 'prev_value': 600, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:05,787 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:07,745 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:07,745 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:07,746 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:07,749 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 35, 'prev_value': 34, 'change': 1}
+2019-10-05 16:11:07,749 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:07,752 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 700, 'prev_value': 650, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:07,765 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_plunger_lane
+2019-10-05 16:11:07,765 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:07,794 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:07,806 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:07,835 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:07,997 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:08,136 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:08,261 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:08,276 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:08,301 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:08,357 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:08,374 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:08,387 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_plunger_lane
+2019-10-05 16:11:08,428 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:08,428 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:08,428 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:08,431 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 36, 'prev_value': 35, 'change': 1}
+2019-10-05 16:11:08,432 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 750, 'prev_value': 700, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:08,445 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:08,491 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:08,519 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:10,813 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:10,813 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:10,813 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:10,817 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 37, 'prev_value': 36, 'change': 1}
+2019-10-05 16:11:10,817 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 800, 'prev_value': 750, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:10,830 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:10,833 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_plunger_lane
+2019-10-05 16:11:10,849 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:10,850 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:10,864 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:10,865 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:10,865 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:10,868 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 38, 'prev_value': 37, 'change': 1}
+2019-10-05 16:11:10,868 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:10,871 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:10,871 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:10,871 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:10,874 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 39, 'prev_value': 38, 'change': 1}
+2019-10-05 16:11:10,874 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 850, 'prev_value': 800, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:10,875 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 900, 'prev_value': 850, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:10,958 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:11,220 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:11,220 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:11,220 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:11,224 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 40, 'prev_value': 39, 'change': 1}
+2019-10-05 16:11:11,224 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 950, 'prev_value': 900, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:11,236 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:11,240 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:11,254 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:11,271 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:11,271 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:11,271 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:11,275 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 41, 'prev_value': 40, 'change': 1}
+2019-10-05 16:11:11,275 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:11,278 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1000, 'prev_value': 950, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:11,293 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:11,293 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:11,293 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:11,297 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 42, 'prev_value': 41, 'change': 1}
+2019-10-05 16:11:11,297 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:11,300 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:11,300 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:11,300 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:11,302 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 43, 'prev_value': 42, 'change': 1}
+2019-10-05 16:11:11,302 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:11,305 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1050, 'prev_value': 1000, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:11,306 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1100, 'prev_value': 1050, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:11,321 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:11,321 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:11,321 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:11,325 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 44, 'prev_value': 43, 'change': 1}
+2019-10-05 16:11:11,325 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1150, 'prev_value': 1100, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:11,461 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:11,493 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:11,494 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:11,933 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:11,933 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:11,933 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:11,936 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 45, 'prev_value': 44, 'change': 1}
+2019-10-05 16:11:11,937 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1200, 'prev_value': 1150, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:11,953 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:11,953 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_plunger_lane
+2019-10-05 16:11:12,060 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:12,064 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:15,044 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:15,044 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:15,044 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:15,048 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 46, 'prev_value': 45, 'change': 1}
+2019-10-05 16:11:15,048 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:15,051 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1250, 'prev_value': 1200, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:15,107 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:15,108 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:15,108 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:15,111 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 47, 'prev_value': 46, 'change': 1}
+2019-10-05 16:11:15,111 : WARNING : SwitchController : WARNING: Received duplicate switch state, which means this switch had some non-debounced state changes. This could be nothing, but if it happens a lot it could indicate noise or interference on the line. Switch: s_slingshot_right
+2019-10-05 16:11:15,111 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1300, 'prev_value': 1250, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:15,126 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:20,492 : INFO : SwitchController : <<<<<<< 's_launch_button' active >>>>>>>
+2019-10-05 16:11:20,493 : INFO : EventManager : Event: ======'s_launch_button_active'====== Args={}
+2019-10-05 16:11:20,496 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_launch_button'====== Args={'value': 149, 'prev_value': 148, 'change': 1}
+2019-10-05 16:11:20,496 : INFO : coil.c_plunger : Pulsing Driver for 10ms (1.0 pulse_power)
+2019-10-05 16:11:20,538 : INFO : SwitchController : <<<<<<< 's_plunger_lane' inactive >>>>>>>
+2019-10-05 16:11:20,601 : INFO : SwitchController : <<<<<<< 's_launch_button' inactive >>>>>>>
+2019-10-05 16:11:22,233 : INFO : SwitchController : <<<<<<< 's_slingshot_right' active >>>>>>>
+2019-10-05 16:11:22,233 : INFO : EventManager : Event: ======'s_slingshot_right_active'====== Args={}
+2019-10-05 16:11:22,233 : INFO : EventManager : Event: ======'playfield_active'====== Args={}
+2019-10-05 16:11:22,236 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_slingshot_right'====== Args={'value': 48, 'prev_value': 47, 'change': 1}
+2019-10-05 16:11:22,237 : INFO : EventManager : Event: ======'player_score'====== Args={'value': 1350, 'prev_value': 1300, 'change': 50, 'player_num': 1}
+2019-10-05 16:11:22,237 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_eject_success'====== Args={'balls': 1, 'target': <playfield.playfield>}
+2019-10-05 16:11:22,237 : INFO : EventManager : Event: ======'balldevice_playfield_ball_enter'====== Args={'new_balls': 1, 'unclaimed_balls': 1, 'device': <playfield.playfield>}
+2019-10-05 16:11:22,237 : INFO : EventManager : Event: ======'playfield_ball_count_change'====== Args={'balls': 1, 'change': 1}
+2019-10-05 16:11:22,237 : INFO : EventManager : Event: ======'balldevice_bd_plunger_ball_count_changed'====== Args={'balls': 0}
+2019-10-05 16:11:22,250 : INFO : SwitchController : <<<<<<< 's_slingshot_right' inactive >>>>>>>
+2019-10-05 16:11:22,658 : INFO : SwitchController : <<<<<<< 's_right_flipper' active >>>>>>>
+2019-10-05 16:11:22,662 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 454, 'prev_value': 453, 'change': 1}
+2019-10-05 16:11:22,741 : INFO : SwitchController : <<<<<<< 's_right_flipper' inactive >>>>>>>
+2019-10-05 16:11:24,796 : INFO : SwitchController : <<<<<<< 's_left_flipper' active >>>>>>>
+2019-10-05 16:11:24,800 : INFO : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 358, 'prev_value': 357, 'change': 1}
+2019-10-05 16:11:24,861 : INFO : SwitchController : <<<<<<< 's_left_flipper' inactive >>>>>>>
+2019-10-05 16:11:30,111 : INFO : root : MPF run loop ended.

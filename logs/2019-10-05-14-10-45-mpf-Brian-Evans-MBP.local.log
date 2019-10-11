@@ -1,0 +1,71 @@
+2019-10-05 14:10:45,894 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.7
+2019-10-05 14:10:45,894 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': '/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2019-10-05-14-10-45-mpf-Brian-Evans-MBP.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': 'smart_virtual', 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-10-05 14:10:45,894 : INFO : Machine : MPF path: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf
+2019-10-05 14:10:45,894 : INFO : Machine : Machine path: /Users/brianevans/Projects/HeistMPF
+2019-10-05 14:10:45,894 : INFO : Machine : Platform: darwin
+2019-10-05 14:10:45,894 : INFO : Machine : Python executable location: /Users/brianevans/Projects/Heist2/bin/python3
+2019-10-05 14:10:45,894 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-10-05 14:10:45,894 : INFO : Machine : Machine config file #1: config.yaml
+2019-10-05 14:10:45,896 : WARNING : ConfigProcessor : Config file in cache changed: /Users/brianevans/Projects/HeistMPF/config/config.yaml
+2019-10-05 14:10:45,896 : INFO : ConfigProcessor : Loading config from file /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml.
+2019-10-05 14:10:45,977 : INFO : ConfigProcessor : Loading config: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml
+2019-10-05 14:10:45,984 : INFO : ConfigProcessor : Loading config from file /Users/brianevans/Projects/HeistMPF/config/config.yaml.
+2019-10-05 14:10:46,018 : INFO : ConfigProcessor : Loading config: /Users/brianevans/Projects/HeistMPF/config/config.yaml
+2019-10-05 14:10:46,019 : INFO : ConfigProcessor : Config file cache created: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/cbd0102fc3bbffb15d3481666f19a2dc.mpf_cache
+2019-10-05 14:10:46,020 : INFO : Machine : Initialise MPF.
+2019-10-05 14:10:46,067 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2019-10-05 14:10:46,089 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-10-05 14:10:46,089 : INFO : EventManager : Event: ======'machine_var_player2_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-10-05 14:10:46,089 : INFO : EventManager : Event: ======'machine_var_player3_score'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2019-10-05 14:10:46,089 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.52.7', 'prev_value': None, 'change': True}
+2019-10-05 14:10:46,089 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.52.7, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2019-10-05 14:10:46,089 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.6.8', 'prev_value': None, 'change': True}
+2019-10-05 14:10:46,096 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Darwin-18.6.0-x86_64-i386-64bit', 'prev_value': None, 'change': True}
+2019-10-05 14:10:46,097 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Darwin', 'prev_value': None, 'change': True}
+2019-10-05 14:10:46,097 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '18.6.0', 'prev_value': None, 'change': True}
+2019-10-05 14:10:46,097 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': 'Darwin Kernel Version 18.6.0: Thu Apr 25 23:16:27 PDT 2019; root:xnu-4903.261.4~2/RELEASE_X86_64', 'prev_value': None, 'change': True}
+2019-10-05 14:10:46,097 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'x86_64', 'prev_value': None, 'change': True}
+2019-10-05 14:10:46,097 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2019-10-05 14:10:46,116 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/f0759ae7f1adf3ca3aa30930aefbe6d9.mpf_cache
+2019-10-05 14:10:46,119 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/a8e25c492f388de3c3716813c634f0e8.mpf_cache
+2019-10-05 14:10:46,121 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/0249fff9f59dc8e53a18683d26ee8d09.mpf_cache
+2019-10-05 14:10:46,134 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...gic_blocks',)>) at /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py:96
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...gic_blocks',)>) at /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py:96>
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py", line 99, in _async_handler_done
+    future.result()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/device_manager.py", line 117, in _load_device_modules
+    yield from self.initialize_devices()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/device_manager.py", line 214, in initialize_devices
+    yield from collection[device_name].device_added_system_wide()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/devices/logic_blocks.py", line 98, in device_added_system_wide
+    self.raise_config_error("Cannot set persist_state for system-wide logic_blocks", 1)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/logging.py", line 139, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name, context)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in counter.scoop_counter: Cannot set persist_state for system-wide logic_blocks Error Code: CFE-counter.scoop_counter-1
+2019-10-05 14:10:46,136 : INFO : Machine : Starting the main run loop.
+2019-10-05 14:10:46,136 : INFO : Machine : Shutting down...
+2019-10-05 14:10:46,136 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2019-10-05 14:10:46,139 : ERROR : root : Config File Error in counter.scoop_counter: Cannot set persist_state for system-wide logic_blocks Error Code: CFE-counter.scoop_counter-1
+Traceback (most recent call last):
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/commands/game.py", line 220, in __init__
+    MachineController(mpf_path, machine_path, vars(self.args)).run()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/machine.py", line 709, in run
+    self._run_loop()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/asyncio/events.py", line 145, in _run
+    self._callback(*self._args)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/events.py", line 99, in _async_handler_done
+    future.result()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/device_manager.py", line 117, in _load_device_modules
+    yield from self.initialize_devices()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/device_manager.py", line 214, in initialize_devices
+    yield from collection[device_name].device_added_system_wide()
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/devices/logic_blocks.py", line 98, in device_added_system_wide
+    self.raise_config_error("Cannot set persist_state for system-wide logic_blocks", 1)
+  File "/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/core/logging.py", line 139, in raise_config_error
+    raise ConfigFileError(msg, error_no, self.log.name, context)
+mpf.exceptions.ConfigFileError.ConfigFileError: Config File Error in counter.scoop_counter: Cannot set persist_state for system-wide logic_blocks Error Code: CFE-counter.scoop_counter-1

@@ -1,0 +1,11 @@
+2019-10-04 17:40:57,091 : INFO : Machine : Mission Pinball Framework Core Engine v0.52.7
+2019-10-04 17:40:57,091 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'mpfconfigfile': '/Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf/mpfconfig.yaml', 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs/2019-10-04-17-40-57-mpf-Brian-Evans-MBP.local.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2019-10-04 17:40:57,091 : INFO : Machine : MPF path: /Users/brianevans/Projects/Heist2/lib/python3.6/site-packages/mpf
+2019-10-04 17:40:57,091 : INFO : Machine : Machine path: /Users/brianevans/Projects/HeistMPF
+2019-10-04 17:40:57,091 : INFO : Machine : Platform: darwin
+2019-10-04 17:40:57,091 : INFO : Machine : Python executable location: /Users/brianevans/Projects/Heist2/bin/python3
+2019-10-04 17:40:57,091 : INFO : Machine : Python version: 3.6.8 (64-bit)
+2019-10-04 17:40:57,091 : INFO : Machine : Machine config file #1: config.yaml
+2019-10-04 17:40:57,092 : INFO : ConfigProcessor : Loading config from cache: /var/folders/38/zt4c1pv93sgf1qnjzzmssk_r0000gp/T/cbd0102fc3bbffb15d3481666f19a2dc.mpf_cache
+2019-10-04 17:40:57,093 : INFO : Machine : Initialise MPF.
+2019-10-04 17:40:57,148 : INFO : P3-ROC : Connecting to P-ROC
